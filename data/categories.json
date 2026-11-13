@@ -1,0 +1,6663 @@
+{
+ "views": [
+  {
+   "id": "tema",
+   "name": "Per tema",
+   "groups": [
+    {
+     "id": "fid",
+     "name": "Fiducia e credibilità",
+     "description": "Come farsi dare fiducia da chi ancora non ti conosce: credibilità, affidabilità, vicinanza."
+    },
+    {
+     "id": "cur",
+     "name": "Curation e fonti fidate",
+     "description": "Scegliere, raccogliere e organizzare il meglio per gli altri. Diventare una fonte a cui si torna."
+    },
+    {
+     "id": "cont",
+     "name": "Contenuti di valore e formati",
+     "description": "Cosa pubblicare oltre agli articoli: guide, directory, toolkit, newsradar, tool, calendari."
+    },
+    {
+     "id": "scr",
+     "name": "Scrivere e comunicare",
+     "description": "Scrivere chiaro, con la tua voce. Come iniziare un testo, che linguaggio usare, come raccontare."
+    },
+    {
+     "id": "soc",
+     "name": "Social media e newsletter",
+     "description": "Facebook, cosa postare, social media manager, newsletter: come usarli senza perderci la faccia."
+    },
+    {
+     "id": "pos",
+     "name": "Posizionamento, nicchia e sito web",
+     "description": "Chi sei, per chi lavori, come ti trovano: nicchia, nome, logo, sito, profilo su Google."
+    },
+    {
+     "id": "cli",
+     "name": "Clienti e relazioni",
+     "description": "Coltivare relazioni, ascoltare, rispondere, servire bene. Il cliente come un amico."
+    },
+    {
+     "id": "ia",
+     "name": "Intelligenza artificiale",
+     "description": "Come lavorare con l'IA senza farsi rimpiazzare: prompt, mini-app, knowledge base, rimanere rilevanti."
+    },
+    {
+     "id": "pod",
+     "name": "Podcasting",
+     "description": "Come fare un podcast: strumenti, interviste, strategia, monetizzazione."
+    },
+    {
+     "id": "ind",
+     "name": "Imprenditori indipendenti",
+     "description": "Strategie, costanza e scelte per chi vuole vivere della propria competenza."
+    },
+    {
+     "id": "sto",
+     "name": "Storie di vita e viaggi",
+     "description": "Holbox, la Thailandia, i set da DJ, la dengue, i visti. Racconti da cui spesso esce una lezione."
+    }
+   ]
+  },
+  {
+   "id": "percorso",
+   "name": "Per percorso",
+   "groups": [
+    {
+     "id": "parti",
+     "name": "Da dove partire",
+     "description": "Le basi per chi comincia o riparte: cosa fare prima, cosa evitare."
+    },
+    {
+     "id": "trov",
+     "name": "Farsi trovare",
+     "description": "Contenuti, social, newsletter e sito per farsi notare dalle persone giuste."
+    },
+    {
+     "id": "sceg",
+     "name": "Farsi scegliere",
+     "description": "Quando ti hanno trovato: come diventare la persona di cui fidarsi."
+    },
+    {
+     "id": "tieni",
+     "name": "Tenersi i clienti",
+     "description": "Relazioni, assistenza, feedback: come far tornare le persone."
+    },
+    {
+     "id": "guad",
+     "name": "Guadagnare con quello che sai",
+     "description": "Modelli, prezzi, storie di chi ce l'ha fatta con la propria competenza."
+    },
+    {
+     "id": "ia",
+     "name": "Lavorare con l'IA",
+     "description": "Come usare l'intelligenza artificiale e restare insostituibili."
+    },
+    {
+     "id": "vita",
+     "name": "Storie dall'isola",
+     "description": "Racconti di vita, da ascoltare quando vuoi solo compagnia."
+    }
+   ]
+  },
+  {
+   "id": "serie",
+   "name": "Per serie",
+   "groups": [
+    {
+     "id": "postare",
+     "name": "Cosa Postare sui Social",
+     "description": "5 puntate"
+    },
+    {
+     "id": "schermo",
+     "name": "Uscire dallo Schermo (tour)",
+     "description": "3 puntate"
+    },
+    {
+     "id": "posiz19",
+     "name": "Posizionamento e Project Brief",
+     "description": "6 puntate"
+    },
+    {
+     "id": "logo",
+     "name": "Logo",
+     "description": "2 puntate"
+    },
+    {
+     "id": "brain",
+     "name": "Brainstorming",
+     "description": "2 puntate"
+    },
+    {
+     "id": "piano",
+     "name": "Piano dei Contenuti",
+     "description": "5 puntate"
+    },
+    {
+     "id": "immagini",
+     "name": "Immagini",
+     "description": "2 puntate"
+    },
+    {
+     "id": "friends",
+     "name": "Storie di Friends",
+     "description": "2 puntate"
+    },
+    {
+     "id": "spaccano",
+     "name": "Contenuti che Spaccano",
+     "description": "10 puntate"
+    },
+    {
+     "id": "custserv",
+     "name": "Customer Service",
+     "description": "3 puntate"
+    },
+    {
+     "id": "podcasting",
+     "name": "Podcasting",
+     "description": "12 puntate"
+    },
+    {
+     "id": "sino",
+     "name": "Sì o No? (copiare, imitare, prezzi)",
+     "description": "3 puntate"
+    },
+    {
+     "id": "tendenze",
+     "name": "Tendenze per chi pubblica online",
+     "description": "2 puntate"
+    },
+    {
+     "id": "leggere",
+     "name": "Scrivere per chi legge online",
+     "description": "4 puntate"
+    },
+    {
+     "id": "imprenditori",
+     "name": "Storie di piccoli imprenditori",
+     "description": "10 puntate"
+    },
+    {
+     "id": "futuro",
+     "name": "Strategie per il Futuro",
+     "description": "11 puntate"
+    },
+    {
+     "id": "cm",
+     "name": "La Miglior Strategia di Content Marketing",
+     "description": "2 puntate"
+    },
+    {
+     "id": "holbox",
+     "name": "Diario di Holbox",
+     "description": "20 puntate"
+    },
+    {
+     "id": "newsletter",
+     "name": "Newsletter",
+     "description": "7 puntate"
+    },
+    {
+     "id": "faccio",
+     "name": "Faccio Faccio Ma...",
+     "description": "2 puntate"
+    },
+    {
+     "id": "smm",
+     "name": "Social Media Manager",
+     "description": "4 puntate"
+    },
+    {
+     "id": "ia23",
+     "name": "IA: Prime Riflessioni (2023)",
+     "description": "4 puntate"
+    },
+    {
+     "id": "dengue",
+     "name": "Dengue",
+     "description": "4 puntate"
+    },
+    {
+     "id": "knowhow",
+     "name": "Monetizzare il Know-How",
+     "description": "2 puntate"
+    },
+    {
+     "id": "formula",
+     "name": "La Formula della Fiducia",
+     "description": "7 puntate"
+    },
+    {
+     "id": "scrfid",
+     "name": "Guadagnare Fiducia Scrivendo",
+     "description": "2 puntate"
+    },
+    {
+     "id": "sentito",
+     "name": "Per Sentito Dire",
+     "description": "2 puntate"
+    },
+    {
+     "id": "ricerca",
+     "name": "IA: Ricerca Assistita",
+     "description": "2 puntate"
+    },
+    {
+     "id": "thai",
+     "name": "Diario dalla Thailandia",
+     "description": "12 puntate"
+    },
+    {
+     "id": "muaythai",
+     "name": "Muay Thai",
+     "description": "2 puntate"
+    },
+    {
+     "id": "miniapp",
+     "name": "Una App al Mese e Vibe Coding",
+     "description": "5 puntate"
+    },
+    {
+     "id": "rilevanti",
+     "name": "Rimanere Rilevanti",
+     "description": "4 puntate"
+    },
+    {
+     "id": "prompt",
+     "name": "Prompt",
+     "description": "2 puntate"
+    },
+    {
+     "id": "kb",
+     "name": "Knowledge Base e The Curator",
+     "description": "5 puntate"
+    },
+    {
+     "id": "liquid",
+     "name": "Liquid Content e Formati",
+     "description": "2 puntate"
+    },
+    {
+     "id": "tool26",
+     "name": "Tool per la Credibilità (2026)",
+     "description": "5 puntate"
+    }
+   ]
+  },
+  {
+   "id": "epoca",
+   "name": "Per epoca",
+   "groups": [
+    {
+     "id": "e1",
+     "name": "2018–19 · Social e siti per piccole aziende",
+     "description": "Gli inizi: Facebook, siti, contenuti e clienti per piccole attività italiane."
+    },
+    {
+     "id": "e2",
+     "name": "2020–21 · Contenuti, podcast e imprenditori",
+     "description": "Contenuti che spaccano, podcasting, storie di imprenditori, strategie per il futuro."
+    },
+    {
+     "id": "e3",
+     "name": "2021–24 · Lezioni dall'isola di Holbox",
+     "description": "La vita in Messico, i set da DJ, e il marketing visto dalla spiaggia."
+    },
+    {
+     "id": "e4",
+     "name": "2024–25 · Thailandia e primi passi con l'IA",
+     "description": "Il trasloco a Koh Samui, i visti, le prime mini-app fatte con l'IA."
+    },
+    {
+     "id": "e5",
+     "name": "2025–26 · Curation e fiducia nell'era dell'IA",
+     "description": "Fonti fidate, knowledge base, tool: come farsi scegliere quando l'IA scrive per tutti."
+    }
+   ]
+  }
+ ],
+ "assign": {
+  "1": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "2": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "3": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "4": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "5": {
+   "tema": [
+    "soc",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "6": {
+   "tema": [
+    "soc",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "7": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "8": {
+   "tema": [
+    "fid",
+    "cont"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "9": {
+   "tema": [
+    "fid",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "10": {
+   "tema": [
+    "scr",
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "11": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "12": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "13": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "14": {
+   "tema": [
+    "cli",
+    "scr"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "15": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "16": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "17": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "18": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "19": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "20": {
+   "tema": [
+    "scr",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "21": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "22": {
+   "tema": [
+    "scr",
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "23": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "24": {
+   "tema": [
+    "fid",
+    "cont"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "25": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "26": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "27": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "28": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "29": {
+   "tema": [
+    "cur",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "30": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "31": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "32": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "33": {
+   "tema": [
+    "soc",
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "34": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "35": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "36": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "37": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "schermo"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "38": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "schermo"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "39": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "40": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "41": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "42": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "43": {
+   "tema": [
+    "cont",
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "piano"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "44": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "45": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "46": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "47": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "48": {
+   "tema": [
+    "cli",
+    "scr"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "49": {
+   "tema": [
+    "soc",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "50": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "postare"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "51": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "postare"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "52": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "postare"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "53": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "postare"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "54": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "postare"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "55": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "schermo"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "56": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": true
+  },
+  "57": {
+   "tema": [
+    "sto",
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": true
+  },
+  "58": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "59": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "60": {
+   "tema": [
+    "fid",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "61": {
+   "tema": [
+    "cont",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "62": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "63": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "64": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "65": {
+   "tema": [
+    "scr",
+    "pod"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "66": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "67": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "custserv"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "68": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "69": {
+   "tema": [
+    "fid",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "70": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "71": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "72": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "73": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "74": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "75": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "76": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "77": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "logo"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "78": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "logo"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "79": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "80": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "81": {
+   "tema": [
+    "pod",
+    "ia"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "82": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "brain"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "83": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "brain"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "84": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "85": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "posiz19"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "86": {
+   "tema": [
+    "cont",
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "piano"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "87": {
+   "tema": [
+    "cont",
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "piano"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "88": {
+   "tema": [
+    "cont",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "piano"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "89": {
+   "tema": [
+    "pos",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "piano"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "90": {
+   "tema": [
+    "pos",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "91": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "immagini"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "92": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "immagini"
+   ],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "93": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e1"
+   ],
+   "storia": false
+  },
+  "94": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "friends"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": true
+  },
+  "95": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "friends"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": true
+  },
+  "96": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "97": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "98": {
+   "tema": [
+    "cont",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "99": {
+   "tema": [
+    "cont",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "100": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "101": {
+   "tema": [
+    "cont",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "102": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "103": {
+   "tema": [
+    "cur",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "104": {
+   "tema": [
+    "soc",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "105": {
+   "tema": [
+    "cont",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "106": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "spaccano"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "107": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "108": {
+   "tema": [
+    "soc",
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "109": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "custserv"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "110": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "custserv"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "111": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "112": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "113": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "114": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "115": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "116": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "117": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "118": {
+   "tema": [
+    "pod",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "119": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "120": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "121": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "122": {
+   "tema": [
+    "pod",
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "123": {
+   "tema": [
+    "pod",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "podcasting"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "124": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "125": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "126": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "sino"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "127": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "sino"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "128": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "sino"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "129": {
+   "tema": [
+    "pos",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "130": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "131": {
+   "tema": [
+    "cli",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "132": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "tendenze"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "133": {
+   "tema": [
+    "ind",
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "tendenze"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "134": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "135": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "leggere"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "136": {
+   "tema": [
+    "soc",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "leggere"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "137": {
+   "tema": [
+    "soc",
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "leggere"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "138": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "leggere"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "139": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "140": {
+   "tema": [
+    "cur",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "141": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "142": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "143": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "144": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "145": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "146": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "147": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "148": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "149": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "150": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "imprenditori"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "151": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "152": {
+   "tema": [
+    "cli",
+    "ind"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "153": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": true
+  },
+  "154": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "155": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "156": {
+   "tema": [
+    "cur",
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "157": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "158": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "159": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "160": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "161": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "futuro"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "162": {
+   "tema": [
+    "ind",
+    "cli"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "163": {
+   "tema": [
+    "cont",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "164": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "cm"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "165": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "cm"
+   ],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "166": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "167": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "168": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "169": {
+   "tema": [
+    "scr",
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": false
+  },
+  "170": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e2"
+   ],
+   "storia": true
+  },
+  "171": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "172": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "173": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "174": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "175": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "176": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "177": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "178": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "179": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "180": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "181": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "182": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "183": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "184": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "185": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "186": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "187": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "188": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "189": {
+   "tema": [
+    "sto",
+    "cli"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "190": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "holbox"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "191": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "192": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "193": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "194": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "195": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "196": {
+   "tema": [
+    "soc",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "197": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "newsletter"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "198": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "199": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "200": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "201": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "202": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "203": {
+   "tema": [
+    "soc",
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "faccio"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "204": {
+   "tema": [
+    "sto",
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "faccio"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "205": {
+   "tema": [
+    "pos",
+    "sto"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "206": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "207": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "208": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "209": {
+   "tema": [
+    "pos",
+    "sto"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "210": {
+   "tema": [
+    "sto",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "211": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "212": {
+   "tema": [
+    "scr",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "213": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "214": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "215": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "216": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "217": {
+   "tema": [
+    "sto",
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "218": {
+   "tema": [
+    "cli",
+    "fid"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "219": {
+   "tema": [
+    "sto",
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "220": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "221": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "222": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "223": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "224": {
+   "tema": [
+    "fid",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "225": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "226": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "smm"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "227": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "smm"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "228": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "smm"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "229": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "smm"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "230": {
+   "tema": [
+    "sto",
+    "cli"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "231": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "232": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "233": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "234": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "235": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "236": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "237": {
+   "tema": [
+    "scr",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "238": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "239": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "240": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "241": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "242": {
+   "tema": [
+    "pos",
+    "sto"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "243": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "244": {
+   "tema": [
+    "scr",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "245": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "246": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "247": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "248": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "249": {
+   "tema": [
+    "pos",
+    "sto"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "250": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "251": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "252": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "253": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "254": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "255": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "256": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "257": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "258": {
+   "tema": [
+    "cur",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "259": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "260": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "261": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ia23"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "262": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ia23"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "263": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "264": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ia23"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "265": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "266": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "267": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "268": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ia23"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "269": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "270": {
+   "tema": [
+    "sto",
+    "ind"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "271": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "272": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "273": {
+   "tema": [
+    "scr",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "274": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "275": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "276": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "277": {
+   "tema": [
+    "soc",
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "278": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "279": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "280": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "281": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "282": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "283": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "284": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "285": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "286": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "dengue"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "287": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "dengue"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "288": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "dengue"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "289": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "dengue"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "290": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "291": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "292": {
+   "tema": [
+    "pos",
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "293": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "294": {
+   "tema": [
+    "pod"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "295": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "knowhow"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "296": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [
+    "knowhow"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "297": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "298": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "299": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "300": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "301": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "302": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "303": {
+   "tema": [
+    "fid",
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "304": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "formula"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "305": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "306": {
+   "tema": [
+    "cli",
+    "fid"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "307": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "308": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "309": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "310": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "311": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "prompt"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "312": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "313": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "314": {
+   "tema": [
+    "scr",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "scrfid"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "315": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "scrfid"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "316": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "317": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "318": {
+   "tema": [
+    "ind",
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "319": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "320": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "321": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "322": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "323": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "324": {
+   "tema": [
+    "cli",
+    "scr"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "325": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "326": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "327": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "328": {
+   "tema": [
+    "ia",
+    "fid"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "329": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "330": {
+   "tema": [
+    "ind",
+    "cli"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "331": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "332": {
+   "tema": [
+    "ind",
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": false
+  },
+  "333": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "sentito"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "334": {
+   "tema": [
+    "ind",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "sentito"
+   ],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "335": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "336": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e3"
+   ],
+   "storia": true
+  },
+  "337": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "338": {
+   "tema": [
+    "cli",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "339": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "340": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ricerca"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "341": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "342": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "343": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "ricerca"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "344": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "345": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "346": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "347": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "348": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "349": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "350": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "351": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "guad"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "352": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "353": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "354": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "355": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "356": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "357": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "thai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "358": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "359": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "360": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "361": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "362": {
+   "tema": [
+    "ia",
+    "sto"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "363": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "muaythai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "364": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [
+    "muaythai"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "365": {
+   "tema": [
+    "ia",
+    "cont"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "miniapp"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "366": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "367": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "rilevanti"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "368": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "miniapp"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "369": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "rilevanti"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "370": {
+   "tema": [
+    "pos",
+    "cur"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "371": {
+   "tema": [
+    "ia",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "372": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "373": {
+   "tema": [
+    "cur",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": true
+  },
+  "374": {
+   "tema": [
+    "cur",
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "375": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "376": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "miniapp"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "377": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "miniapp"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "378": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "miniapp"
+   ],
+   "epoca": [
+    "e4"
+   ],
+   "storia": false
+  },
+  "379": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "rilevanti"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "380": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "381": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "382": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "383": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "384": {
+   "tema": [
+    "cli"
+   ],
+   "percorso": [
+    "tieni"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "385": {
+   "tema": [
+    "ia",
+    "pos"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "rilevanti"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "386": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "387": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "388": {
+   "tema": [
+    "soc"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "389": {
+   "tema": [
+    "scr"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "390": {
+   "tema": [
+    "scr",
+    "ia"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "391": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "392": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "393": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "394": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "395": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "prompt"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "396": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "397": {
+   "tema": [
+    "cont",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "398": {
+   "tema": [
+    "cur",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "399": {
+   "tema": [
+    "cur",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "400": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "401": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "402": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "403": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "404": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "405": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "406": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "407": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "408": {
+   "tema": [
+    "cur",
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "409": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "410": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "411": {
+   "tema": [
+    "cont",
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "412": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "413": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "414": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "415": {
+   "tema": [
+    "ia",
+    "cur"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "416": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "417": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "418": {
+   "tema": [
+    "sto"
+   ],
+   "percorso": [
+    "vita"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "419": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "420": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "421": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "422": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "423": {
+   "tema": [
+    "cur",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "kb"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "424": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "425": {
+   "tema": [
+    "cur",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "kb"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "426": {
+   "tema": [
+    "ia",
+    "scr"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "427": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "428": {
+   "tema": [
+    "fid",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "429": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "430": {
+   "tema": [
+    "fid",
+    "cur"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "431": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "432": {
+   "tema": [
+    "cur",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "kb"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "433": {
+   "tema": [
+    "cur",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "kb"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "434": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "435": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "436": {
+   "tema": [
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "437": {
+   "tema": [
+    "ind"
+   ],
+   "percorso": [
+    "parti"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "438": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "439": {
+   "tema": [
+    "fid",
+    "ia"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "440": {
+   "tema": [
+    "ia",
+    "sto"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": true
+  },
+  "441": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "liquid"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "442": {
+   "tema": [
+    "cur",
+    "ia"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [
+    "kb"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "443": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "liquid"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "444": {
+   "tema": [
+    "fid"
+   ],
+   "percorso": [
+    "sceg"
+   ],
+   "serie": [
+    "tool26"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "445": {
+   "tema": [
+    "cur"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "tool26"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "446": {
+   "tema": [
+    "pos"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "tool26"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "447": {
+   "tema": [
+    "cont"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "tool26"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "448": {
+   "tema": [
+    "ia",
+    "ind"
+   ],
+   "percorso": [
+    "ia"
+   ],
+   "serie": [],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  },
+  "449": {
+   "tema": [
+    "pos",
+    "ia"
+   ],
+   "percorso": [
+    "trov"
+   ],
+   "serie": [
+    "tool26"
+   ],
+   "epoca": [
+    "e5"
+   ],
+   "storia": false
+  }
+ },
+ "start_here": [
+  24,
+  70,
+  129,
+  162,
+  171,
+  216,
+  300,
+  332,
+  367,
+  398
+ ],
+ "auto": []
+}

@@ -40,6 +40,8 @@ jobs:
       - name: Trascrizioni mancanti con Whisper
         if: ${{ (github.event.inputs.whisper_limit || '2') != '0' }}
         run: python3 scripts/transcribe_whisper.py --limit "${{ github.event.inputs.whisper_limit || '2' }}"
+      - name: Classifica le puntate nuove
+        run: python3 scripts/classify_new.py
       - name: Costruisci il sito
         run: python3 scripts/build_site.py
       - name: Salva i cambiamenti
