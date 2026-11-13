@@ -2,30 +2,43 @@ name: Aggiorna archivio
 
 on:
   schedule:
-    - cron: "17 8 * * 1"   # ogni lunedi' alle 08:17 UTC, il giorno dopo l'uscita della puntata
+    - cron: "17 8 * * 1"   # ogni lunedi' alle 08:17 UTC (15:17 a Bangkok), il giorno dopo l'uscita
   workflow_dispatch:
     inputs:
       max_transcripts:
-        description: "Massimo di trascrizioni nuove in questo giro"
-        default: "60"
+        description: "Massimo di trascrizioni spoken.md nuove in questo giro"
+        default: "5"
+      whisper_limit:
+        description: "Quante puntate senza testo trascrivere con Whisper"
+        default: "2"
 
 permissions:
   contents: write
 
+concurrency:
+  group: archivio
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
       - name: Leggi il feed Spreaker
         run: python3 scripts/fetch_feed.py
-      - name: Scarica le trascrizioni nuove da spoken.md
+      - name: Trascrizioni da spoken.md
         env:
           SPOKEN_API_KEY: ${{ secrets.SPOKEN_API_KEY }}
         run: python3 scripts/fetch_transcripts.py --max "${{ github.event.inputs.max_transcripts || '5' }}"
+      - name: Trascrizioni mancanti con Whisper
+        run: python3 scripts/transcribe_whisper.py --limit "${{ github.event.inputs.whisper_limit || '2' }}"
       - name: Costruisci il sito
         run: python3 scripts/build_site.py
       - name: Salva i cambiamenti
@@ -33,5 +46,6 @@ jobs:
           git config user.name "dbaf-bot"
           git config user.email "dbaf-bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Aggiornamento settimanale archivio"
+          git diff --cached --quiet || git commit -m "Aggiornamento archivio"
+          git pull --rebase
           git push

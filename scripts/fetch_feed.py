@@ -56,8 +56,8 @@ def main():
     episodes = []
     for item in channel.findall("item"):
         title = text_of(item.find("title"))
-        m = re.match(r"\s*#?(\d+)\s*[-–:.]?\s*(.*)", title)
-        number = int(m.group(1)) if m else None
+        # Solo un prefisso "#123 - " e' un numero di puntata. "100 Veri Fan" no.
+        m = re.match(r"\s*#(\d+)\s*[-–:.]?\s*(.*)", title)
         clean_title = m.group(2).strip() if m and m.group(2) else title
         desc_html = text_of(item.find("content:encoded", NS)) or text_of(item.find("description"))
         img = item.find("itunes:image", NS)
@@ -68,10 +68,9 @@ def main():
         except Exception:
             date = ""
         episodes.append({
-            "number": number,
+            "number": None,
             "title": clean_title,
             "full_title": title,
-            "slug": f"{number}-{slugify(clean_title)}" if number else slugify(title),
             "date": date,
             "description_html": desc_html,
             "description": strip_html(desc_html),
@@ -83,13 +82,16 @@ def main():
             "keywords": [k.strip() for k in text_of(item.find("itunes:keywords", NS)).split(",") if k.strip()],
         })
 
-    episodes.sort(key=lambda e: (e["date"], e["number"] or 0), reverse=True)
+    # Il numero di puntata e' la posizione in ordine di data (la prima = 1).
+    # Coincide con i numeri "#N" nei titoli, e copre anche le 145 puntate 2019-2022 senza numero.
+    episodes.sort(key=lambda e: (e["date"], e["guid"]))
+    for i, e in enumerate(episodes, 1):
+        e["number"] = i
+        e["slug"] = f"{i}-{slugify(e['title'])}"
+    episodes.reverse()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(episodes, ensure_ascii=False, indent=1), encoding="utf-8")
-    no_num = [e["full_title"] for e in episodes if e["number"] is None]
-    print(f"Puntate nel feed: {len(episodes)}")
-    if no_num:
-        print(f"Senza numero nel titolo ({len(no_num)}): {no_num[:10]}")
+    print(f"Puntate nel feed: {len(episodes)}. Ultima: #{episodes[0]['number']} {episodes[0]['title']}")
 
 
 if __name__ == "__main__":

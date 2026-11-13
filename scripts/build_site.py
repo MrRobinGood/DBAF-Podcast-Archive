@@ -16,6 +16,7 @@ Scrive:
 import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -102,6 +103,7 @@ def main():
     base_url = cfg.get("base_url", "").rstrip("/")
     cat_by_id = {c["id"]: c for c in cats.get("categories", [])}
 
+    shutil.rmtree(DOCS / "puntate", ignore_errors=True)
     (DOCS / "puntate").mkdir(parents=True, exist_ok=True)
     cards = []
     for e in eps:
