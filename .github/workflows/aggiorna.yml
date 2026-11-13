@@ -1,0 +1,37 @@
+name: Aggiorna archivio
+
+on:
+  schedule:
+    - cron: "17 8 * * 1"   # ogni lunedi' alle 08:17 UTC, il giorno dopo l'uscita della puntata
+  workflow_dispatch:
+    inputs:
+      max_transcripts:
+        description: "Massimo di trascrizioni nuove in questo giro"
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Leggi il feed Spreaker
+        run: python3 scripts/fetch_feed.py
+      - name: Scarica le trascrizioni nuove da spoken.md
+        env:
+          SPOKEN_API_KEY: ${{ secrets.SPOKEN_API_KEY }}
+        run: python3 scripts/fetch_transcripts.py --max "${{ github.event.inputs.max_transcripts || '5' }}"
+      - name: Costruisci il sito
+        run: python3 scripts/build_site.py
+      - name: Salva i cambiamenti
+        run: |
+          git config user.name "dbaf-bot"
+          git config user.email "dbaf-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Aggiornamento settimanale archivio"
+          git push

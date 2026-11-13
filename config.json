@@ -1,0 +1,12 @@
+{
+  "show_name": "da Brand a Friend",
+  "title": "da Brand a Friend · Archivio delle puntate",
+  "intro": "Tutte le puntate del podcast di Robin Good, dalla prima all'ultima, ordinate per tema. Cerca una parola o scegli un argomento.",
+  "base_url": "https://mrrobingood.github.io/DBAF-Podcast-Archive",
+  "show_transcripts": false,
+  "transcript_request_url": "mailto:robin.good@masternewmedia.org?subject=Trascrizione%20da%20Brand%20a%20Friend",
+  "listen_links": {
+    "Spotify": "https://open.spotify.com/show/3skS7ULQXN7jiT1aWWs4rx"
+  },
+  "footer": "da Brand a Friend · Robin Good · archivio aggiornato ogni settimana"
+}
