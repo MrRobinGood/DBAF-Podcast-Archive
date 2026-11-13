@@ -161,7 +161,8 @@ def main():
         summary = sums.get(n) or short(clean_description(e)) or short(e["description"])
         cards.append({
             "n": e["number"], "t": e["title"], "d": e["date"], "s": summary,
-            "i": (e["image"] or "").replace("t_rss_itunes_square_1400", "t_square_limited_480"),
+            "i": f"covers/{e['number']:03d}.jpg" if (DOCS / "covers" / f"{e['number']:03d}.jpg").exists()
+                 else (e["image"] or "").replace("t_rss_itunes_square_1400", "t_square_limited_480"),
             "u": f"puntate/{e['slug']}.html", "k": " ".join(e.get("keywords", [])),
             "g": {v["id"]: a.get(v["id"], []) for v in views}, "st": bool(a.get("storia")),
         })
@@ -172,6 +173,9 @@ def main():
                         for s in a.get("serie", []))
         if a.get("storia"):
             tags += '<span class="tag story">Storia</span>'
+        local_cover = (DOCS / "covers" / f"{e['number']:03d}.jpg").exists()
+        cover_page = f"../covers/{e['number']:03d}.jpg" if local_cover else e.get("image")
+        cover_abs = f"{base_url}/covers/{e['number']:03d}.jpg" if local_cover and base_url else e.get("image")
         tpath = ROOT / "transcripts" / f"{e['number']:03d}.md"
         tr_block = ""
         if tpath.exists() and cfg.get("show_transcripts"):
@@ -190,7 +194,7 @@ def main():
 <p class="meta">Puntata #{esc(n)} · {fmt_date(e['date'])}{(' · ' + esc(e['duration'])) if e.get('duration') else ''}</p>
 <h1>{esc(e['title'])}</h1>
 <div class="tags">{tags}</div>
-{f'<img class="cover" src="{esc(e["image"])}" alt="Copertina della puntata {esc(n)}" loading="lazy">' if e.get('image') else ''}
+{f'<img class="cover" src="{esc(cover_page)}" alt="Copertina della puntata {esc(n)}" loading="lazy">' if cover_page else ''}
 {f'<audio controls preload="none" src="{esc(e["audio"])}"></audio>' if e.get('audio') else ''}
 <div class="btns">
   {f'<a class="btn p" href="{esc(e["link"])}">Ascolta su Spreaker</a>' if e.get('link') else ''}
@@ -203,7 +207,7 @@ def main():
 </article><footer>{esc(cfg.get('footer', ''))}</footer>"""
         canon = f"{base_url}/puntate/{e['slug']}.html" if base_url else ""
         (DOCS / "puntate" / f"{e['slug']}.html").write_text(
-            page(f"#{n} {e['title']} · {cfg.get('show_name', 'da Brand a Friend')}", body, short(summary, 155), canon, e.get("image")),
+            page(f"#{n} {e['title']} · {cfg.get('show_name', 'da Brand a Friend')}", body, short(summary, 155), canon, cover_abs),
             encoding="utf-8")
 
     data_js = json.dumps({
