@@ -158,7 +158,8 @@ def main():
         a = cats.get("assign", {}).get(n, {})
         summary = sums.get(n) or short(clean_description(e)) or short(e["description"])
         cards.append({
-            "n": e["number"], "t": e["title"], "d": e["date"], "s": summary, "i": e["image"],
+            "n": e["number"], "t": e["title"], "d": e["date"], "s": summary,
+            "i": (e["image"] or "").replace("t_rss_itunes_square_1400", "t_square_limited_480"),
             "u": f"puntate/{e['slug']}.html", "k": " ".join(e.get("keywords", [])),
             "g": {v["id"]: a.get(v["id"], []) for v in views}, "st": bool(a.get("storia")),
         })
