@@ -126,6 +126,24 @@ audio{width:100%;margin:10px 0}
 .desc{white-space:pre-line}
 .nav{display:flex;justify-content:space-between;gap:12px;margin-top:36px;font:14px system-ui,sans-serif}
 details{margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+.bigsearch{width:100%;max-width:640px;margin-top:16px;padding:14px 16px;font:17px system-ui,sans-serif;border:1px solid var(--line);border-radius:12px;background:#fff}
+.lbl{font:700 12px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 8px}
+.browse{margin:6px 0 10px}
+.tabs{display:flex;gap:2px;border-bottom:2px solid var(--line);overflow-x:auto}
+.tabs button{border:0;background:none;padding:10px 16px 8px;font:700 16px system-ui,sans-serif;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;text-align:left;white-space:nowrap;text-transform:capitalize}
+.tabs button small{display:block;font-weight:400;font-size:12px;text-transform:none}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-top:14px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px;text-align:left;cursor:pointer;font:inherit;color:inherit;display:flex;flex-direction:column;gap:6px}
+.tile:hover{border-color:#cdbfa8}.tile.on{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.tile .th{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.tile .th img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:#eee}
+.tile b{font:700 15px/1.25 system-ui,sans-serif}.tile .cnt{font:12px system-ui,sans-serif;color:var(--muted)}
+#results{border-top:1px solid var(--line);margin-top:26px;padding-top:18px;scroll-margin-top:10px}
+.res-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.res-head h2{font:700 24px system-ui,sans-serif;margin:0}.res-side{display:flex;gap:10px;align-items:center}
+.clear{font:600 13px system-ui,sans-serif;border:1px solid var(--line);background:#fff;border-radius:99px;padding:6px 12px;cursor:pointer}
+@media(max-width:600px){.tiles{grid-template-columns:repeat(2,1fr)}.tabs button{padding:8px 10px;font-size:15px}}
 footer{font:13px system-ui,sans-serif;color:var(--muted);text-align:center;padding:30px 20px}
 """
 
@@ -216,21 +234,23 @@ def main():
         "start": cats.get("start_here", []),
     }, ensure_ascii=False).replace("</", "<\\/")
     body = f"""<header class="site"><h1>{esc(cfg.get('title', 'Archivio'))}</h1>
-<p>{esc(cfg.get('intro', ''))}</p></header>
+<p>{esc(cfg.get('intro', ''))}</p>
+<input id="q" class="bigsearch" type="search" placeholder="Cerca per titolo, parola, numero…" aria-label="Cerca"></header>
 <div class="wrap">
 <section class="start" id="start"><h2>Inizia da qui</h2><div class="row" id="startrow"></div></section>
-<div class="tools">
-<input id="q" type="search" placeholder="Cerca per titolo, tema, parola, numero…" aria-label="Cerca">
-<div class="views" id="views"><span>Sfoglia:</span></div>
-<div class="chips" id="chips"></div>
+<section class="browse" id="browse"><p class="lbl">Come vuoi sfogliare?</p>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div class="tiles" id="tiles"></div></section>
+<section id="results"><div class="res-head"><div><h2 id="rtitle">Tutte le puntate</h2><p class="catdesc" id="catdesc"></p></div>
+<div class="res-side"><span class="count" id="count"></span><button class="clear" id="clear" hidden>× Togli il filtro</button></div></div>
 <div class="opts"><label><input type="checkbox" id="nostory"> Nascondi le storie di vita</label>
 <label><input type="checkbox" id="oldfirst"> Dalla prima puntata</label></div>
-</div>
-<p class="catdesc" id="catdesc"></p><p class="count" id="count"></p><div class="grid" id="grid"></div></div>
+<div class="grid" id="grid"></div></section></div>
 <footer>{esc(cfg.get('footer', ''))}</footer>
 <script>
 const D={data_js};
 const MESI=["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
+const SUB={{tema:"di cosa parla",percorso:"a che punto sei",serie:"le mini-serie",epoca:"gli anni del podcast"}};
 const fd=s=>{{const[y,m,d]=s.split("-");return d?(+d)+" "+MESI[m-1]+" "+y:s}};
 const norm=s=>(s||"").toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"");
 const P=new URLSearchParams(location.search);
@@ -244,29 +264,30 @@ function card(e){{const tags=(e.g.tema||[]).map(t=>`<span class="tag">${{esc(gna
   return `<a class="card" href="${{e.u}}"><img src="${{esc(e.i)}}" alt="" loading="lazy"><div class="b"><div class="meta">#${{e.n}} · ${{fd(e.d)}}</div>
   <h3>${{esc(e.t)}}</h3><p>${{esc(e.s)}}</p><div class="tags">${{tags}}</div></div></a>`}}
 $("startrow").innerHTML=D.start.map(n=>byN[n]).filter(Boolean).map(card).join("");
-$("views").insertAdjacentHTML("beforeend",D.views.map(v=>`<button class="view" data-v="${{v.id}}">${{esc(v.name)}}</button>`).join(""));
-function chips(){{const v=D.views.find(x=>x.id===view)||D.views[0];
-  const cnt=g=>D.eps.filter(e=>(e.g[v.id]||[]).includes(g)).length;
-  $("chips").innerHTML=v.groups.length>12
-    ? `<select id="gsel" aria-label="Scegli"><option value="">Tutte le serie</option>${{v.groups.map(g=>`<option value="${{g.id}}"${{g.id===grp?" selected":""}}>${{esc(g.n)}} (${{cnt(g.id)}})</option>`).join("")}}</select>`
-    : '<button class="chip" data-g="">Tutte</button>'+v.groups.map(g=>`<button class="chip" data-g="${{g.id}}">${{esc(g.n)}}<small>${{cnt(g.id)}}</small></button>`).join("");
-  const sel=$("gsel"); if(sel) sel.onchange=()=>{{grp=sel.value;render()}};
-  document.querySelectorAll(".view").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===view));}}
+$("tabs").innerHTML=D.views.map(v=>`<button role="tab" data-v="${{v.id}}">${{esc(v.name.replace("Per ",""))}}<small>${{SUB[v.id]||""}}</small></button>`).join("");
+function members(vid,gid){{const l=D.eps.filter(e=>(e.g[vid]||[]).includes(gid));return (vid==="serie"||vid==="epoca")?l.slice().sort((a,b)=>a.n-b.n):l}}
+function tiles(){{const v=D.views.find(x=>x.id===view)||D.views[0];
+  $("tiles").innerHTML=v.groups.map(g=>{{const m=members(v.id,g.id);return `<button class="tile${{g.id===grp?" on":""}}" data-g="${{g.id}}"><span class="th">${{m.slice(0,3).map(e=>`<img src="${{esc(e.i)}}" alt="" loading="lazy">`).join("")}}</span><b>${{esc(g.n)}}</b><span class="cnt">${{m.length}} puntate</span></button>`}}).join("");
+  document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===view));}}
 function render(){{
   const t=norm(q.value), v=D.views.find(x=>x.id===view);
   let list=D.eps.filter(e=>(!grp||(e.g[view]||[]).includes(grp))&&(!t||norm(e.t+" "+e.s+" "+e.k+" #"+e.n).includes(t))&&!($("nostory").checked&&e.st));
-  if($("oldfirst").checked||(view==="serie"&&grp))list=list.slice().sort((a,b)=>a.n-b.n);
+  if($("oldfirst").checked||(grp&&(view==="serie"||view==="epoca")))list=list.slice().sort((a,b)=>a.n-b.n);
+  const g=v&&v.groups.find(x=>x.id===grp);
+  $("rtitle").textContent=g?g.n:(t?`Ricerca: “${{q.value}}”`:"Tutte le puntate");
+  $("catdesc").textContent=g&&view!=="serie"?g.d:"";
   $("count").textContent=list.length+" puntate";
-  const g=v&&v.groups.find(x=>x.id===grp); $("catdesc").textContent=g?g.d:"";
+  $("clear").hidden=!(g||t);
   $("start").style.display=(grp||t)?"none":"";
   $("grid").innerHTML=list.map(card).join("");
-  document.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.g===grp));
+  document.querySelectorAll(".tile").forEach(b=>b.classList.toggle("on",b.dataset.g===grp));
   const u=new URLSearchParams();if(view!=="tema")u.set("v",view);if(grp)u.set("g",grp);history.replaceState(null,"",u.toString()?"?"+u:location.pathname);
 }}
-$("views").onclick=ev=>{{const b=ev.target.closest(".view");if(!b)return;view=b.dataset.v;grp="";chips();render()}};
-$("chips").onclick=ev=>{{const b=ev.target.closest(".chip");if(!b)return;grp=b.dataset.g;render()}};
+$("tabs").onclick=ev=>{{const b=ev.target.closest("button");if(!b)return;view=b.dataset.v;grp="";tiles();render()}};
+$("tiles").onclick=ev=>{{const b=ev.target.closest(".tile");if(!b)return;grp=grp===b.dataset.g?"":b.dataset.g;render();if(grp)$("results").scrollIntoView({{behavior:"smooth"}})}};
+$("clear").onclick=()=>{{grp="";q.value="";render();$("browse").scrollIntoView({{behavior:"smooth"}})}};
 q.oninput=render;$("nostory").onchange=render;$("oldfirst").onchange=render;
-chips();render();
+tiles();render();if(grp)setTimeout(()=>$("results").scrollIntoView(),50);
 </script>"""
     (DOCS / "data.json").write_text(data_js.replace("<\\/", "</"), encoding="utf-8")
     (DOCS / "index.html").write_text(page(cfg.get("title", "Archivio"), body, cfg.get("intro", ""),

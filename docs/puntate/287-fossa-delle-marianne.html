@@ -50,6 +50,24 @@ audio{width:100%;margin:10px 0}
 .desc{white-space:pre-line}
 .nav{display:flex;justify-content:space-between;gap:12px;margin-top:36px;font:14px system-ui,sans-serif}
 details{margin-top:28px;border-top:1px solid var(--line);padding-top:16px}
+.bigsearch{width:100%;max-width:640px;margin-top:16px;padding:14px 16px;font:17px system-ui,sans-serif;border:1px solid var(--line);border-radius:12px;background:#fff}
+.lbl{font:700 12px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 8px}
+.browse{margin:6px 0 10px}
+.tabs{display:flex;gap:2px;border-bottom:2px solid var(--line);overflow-x:auto}
+.tabs button{border:0;background:none;padding:10px 16px 8px;font:700 16px system-ui,sans-serif;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;text-align:left;white-space:nowrap;text-transform:capitalize}
+.tabs button small{display:block;font-weight:400;font-size:12px;text-transform:none}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-top:14px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px;text-align:left;cursor:pointer;font:inherit;color:inherit;display:flex;flex-direction:column;gap:6px}
+.tile:hover{border-color:#cdbfa8}.tile.on{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.tile .th{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.tile .th img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:#eee}
+.tile b{font:700 15px/1.25 system-ui,sans-serif}.tile .cnt{font:12px system-ui,sans-serif;color:var(--muted)}
+#results{border-top:1px solid var(--line);margin-top:26px;padding-top:18px;scroll-margin-top:10px}
+.res-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.res-head h2{font:700 24px system-ui,sans-serif;margin:0}.res-side{display:flex;gap:10px;align-items:center}
+.clear{font:600 13px system-ui,sans-serif;border:1px solid var(--line);background:#fff;border-radius:99px;padding:6px 12px;cursor:pointer}
+@media(max-width:600px){.tiles{grid-template-columns:repeat(2,1fr)}.tabs button{padding:8px 10px;font-size:15px}}
 footer{font:13px system-ui,sans-serif;color:var(--muted);text-align:center;padding:30px 20px}
 </style></head><body><article>
 <p class="meta"><a href="../index.html">← da Brand a Friend · Archivio delle puntate</a></p>
