@@ -1,74 +1,53 @@
 name: Trascrivi arretrato con Whisper
 
-# Lancio a mano. Divide le puntate senza trascrizione in 10 parti, al massimo 4 computer alla volta,
-# poi un ultimo passo raccoglie tutti i testi e li salva.
+# Trascrive con Whisper le puntate che non hanno ancora un testo, 12 alla volta.
+# Parte da solo ogni 6 ore: quando non resta nulla da fare, finisce in pochi secondi.
 on:
+  schedule:
+    - cron: "41 */6 * * *"
   workflow_dispatch:
+    inputs:
+      limit:
+        description: "Quante puntate trascrivere in questo giro"
+        default: "12"
 
 permissions:
   contents: write
 
-concurrency:
-  group: whisper-arretrato
-  cancel-in-progress: false
-
 jobs:
   trascrivi:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
-    strategy:
-      fail-fast: false
-      max-parallel: 4
-      matrix:
-        shard: [0,1,2,3,4,5,6,7,8,9]
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
+      - name: Serve lavorare?
+        id: check
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+          eps = json.loads(Path("data/episodes.json").read_text())
+          missing = [e["number"] for e in eps if not Path(f"transcripts/{e['number']:03d}.md").exists()]
+          print(f"missing={len(missing)}")
+          PY
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.missing != '0'
         with:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: requirements.txt
-      - run: pip install -r requirements.txt
-      - run: python3 scripts/transcribe_whisper.py --shard ${{ matrix.shard }} --shards 10 --out out
-      - uses: actions/upload-artifact@v4
-        with:
-          name: testi-${{ matrix.shard }}
-          path: out/
-          if-no-files-found: ignore
-
-  salva:
-    needs: trascrivi
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          path: arrivati
-          pattern: testi-*
-          merge-multiple: true
-      - name: Copia i testi nuovi e ricostruisci il sito
+      - if: steps.check.outputs.missing != '0'
+        run: pip install -r requirements.txt
+      - name: Trascrivi
+        if: steps.check.outputs.missing != '0'
+        run: python3 scripts/transcribe_whisper.py --limit "${{ github.event.inputs.limit || '12' }}"
+      - name: Ricostruisci il sito e salva
+        if: steps.check.outputs.missing != '0'
         run: |
-          python3 - <<'PY'
-          import json, shutil
-          from pathlib import Path
-          src = Path("arrivati"); dst = Path("transcripts"); dst.mkdir(exist_ok=True)
-          p = Path("data/transcript_sources.json")
-          s = json.loads(p.read_text()) if p.exists() else {}
-          n = 0
-          for f in sorted(src.glob("*.md")) if src.exists() else []:
-              if not (dst / f.name).exists():
-                  shutil.copy(f, dst / f.name); s[str(int(f.stem))] = "whisper-medium"; n += 1
-          p.write_text(json.dumps(dict(sorted(s.items(), key=lambda kv: -int(kv[0]))), indent=1))
-          print("Testi nuovi:", n)
-          PY
-          rm -rf arrivati
           python3 scripts/build_site.py
-      - name: Salva
-        run: |
           git config user.name "dbaf-bot"
           git config user.email "dbaf-bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Trascrizioni Whisper dell'arretrato"
+          git diff --cached --quiet || git commit -m "Trascrizioni Whisper (arretrato)"
           git pull --rebase
           git push
