@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: archivio
+  group: whisper-arretrato
   cancel-in-progress: false
 
 jobs:
