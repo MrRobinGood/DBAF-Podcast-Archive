@@ -1,0 +1,1917 @@
+{
+ "449": {
+  "spoken_id": "1000800538378",
+  "title": "#449 - Positioning Compass",
+  "date": "2026-11-08T09:15:02Z"
+ },
+ "448": {
+  "spoken_id": "1000799211534",
+  "title": "#448 - Cinque Cose che Cambiano",
+  "date": "2026-11-01T09:15:02Z"
+ },
+ "447": {
+  "spoken_id": "1000797996842",
+  "title": "#447 - I Tool Sono i Nuovi Articoli",
+  "date": "2026-10-25T08:15:02Z"
+ },
+ "446": {
+  "spoken_id": "1000796898804",
+  "title": "#446 - Sito Web Personale",
+  "date": "2026-10-18T08:15:02Z"
+ },
+ "445": {
+  "spoken_id": "1000795228327",
+  "title": "#445 - Diventa una Fonte di Notizie",
+  "date": "2026-10-11T08:15:02Z"
+ },
+ "444": {
+  "spoken_id": "1000793065710",
+  "title": "#444 - Misura la Tua Credibilità Online",
+  "date": "2026-10-04T08:15:02Z"
+ },
+ "443": {
+  "spoken_id": "1000791843828",
+  "title": "#443 - 25 Format Che Dimostrano Competenza",
+  "date": "2026-09-27T08:15:02Z"
+ },
+ "442": {
+  "spoken_id": "1000790759227",
+  "title": "#442 - Che Penso, Chi Leggo",
+  "date": "2026-09-20T08:15:02Z"
+ },
+ "441": {
+  "spoken_id": "1000789293371",
+  "title": "#441 - Liquid Content",
+  "date": "2026-09-13T08:15:03Z"
+ },
+ "440": {
+  "spoken_id": "1000788110652",
+  "title": "#440 - DJ Sync e Scrittura con IA",
+  "date": "2026-09-06T08:15:02Z"
+ },
+ "439": {
+  "spoken_id": "1000786774409",
+  "title": "#439 - L'Attenzione Costa Fiducia",
+  "date": "2026-08-30T08:15:02Z"
+ },
+ "438": {
+  "spoken_id": "1000785205396",
+  "title": "#438 - Pensare in Pubblico",
+  "date": "2026-08-23T08:15:01Z"
+ },
+ "437": {
+  "spoken_id": "1000783569556",
+  "title": "#437 - Il Metodo Bruce Lee",
+  "date": "2026-08-16T08:15:02Z"
+ },
+ "436": {
+  "spoken_id": "1000781237072",
+  "title": "#436 - La Storia di Mei-Lin",
+  "date": "2026-08-09T08:15:04Z"
+ },
+ "435": {
+  "spoken_id": "1000779513221",
+  "title": "#435 - Il Prezzo della Fiducia",
+  "date": "2026-08-02T08:15:02Z"
+ },
+ "434": {
+  "spoken_id": "1000778392607",
+  "title": "#434 - Come Dar Maggior Peso alle Tue Idee",
+  "date": "2026-07-26T08:15:02Z"
+ },
+ "433": {
+  "spoken_id": "1000777404930",
+  "title": "#433 - Crea una Mappa della Tua Conoscenza",
+  "date": "2026-07-19T08:15:02Z"
+ },
+ "432": {
+  "spoken_id": "1000776446686",
+  "title": "#432 - The Curator Toolstack - Estate '26",
+  "date": "2026-07-12T08:15:03Z"
+ },
+ "431": {
+  "spoken_id": "1000775506438",
+  "title": "#431 - Sii un Jukebox, Non una Radio",
+  "date": "2026-07-05T08:15:02Z"
+ },
+ "430": {
+  "spoken_id": "1000774542143",
+  "title": "#430 - Diventa un Interprete Citabile",
+  "date": "2026-06-28T08:15:04Z"
+ },
+ "429": {
+  "spoken_id": "1000773588714",
+  "title": "#429 - Perché la Curation È Così Importante",
+  "date": "2026-06-21T08:15:02Z"
+ },
+ "428": {
+  "spoken_id": "1000772615151",
+  "title": "#428 - Diventa una Fonte Fidata",
+  "date": "2026-06-14T08:15:02Z"
+ },
+ "427": {
+  "spoken_id": "1000771528896",
+  "title": "#427 - Fai Vedere Come Scegli",
+  "date": "2026-06-07T08:15:02Z"
+ },
+ "426": {
+  "spoken_id": "1000770383309",
+  "title": "#426 - Chi è l'Autore Quando Scrivi con l'IA?",
+  "date": "2026-05-31T03:15:02Z"
+ },
+ "425": {
+  "spoken_id": "1000769315658",
+  "title": "#425 - Verificato da X è la Nuova Stella Michelin",
+  "date": "2026-05-24T08:15:02Z"
+ },
+ "424": {
+  "spoken_id": "1000768232394",
+  "title": "#424 - Crea Risorse Utili nel Tempo",
+  "date": "2026-05-17T08:15:02Z"
+ },
+ "423": {
+  "spoken_id": "1000767031180",
+  "title": "#423 - Oltre i Second Brain",
+  "date": "2026-05-10T08:15:01Z"
+ },
+ "422": {
+  "spoken_id": "1000765869235",
+  "title": "#422 - Cosa Vale Davvero Oggi",
+  "date": "2026-05-03T08:15:02Z"
+ },
+ "421": {
+  "spoken_id": "1000763644109",
+  "title": "#421 - Aggiungere Spessore",
+  "date": "2026-04-26T08:05:02Z"
+ },
+ "420": {
+  "spoken_id": "1000762223298",
+  "title": "#420 - Quello Che Nessuno Dice",
+  "date": "2026-04-19T08:15:02Z"
+ },
+ "419": {
+  "spoken_id": "1000760913982",
+  "title": "#419 - Lo Strato Mancante",
+  "date": "2026-04-12T08:15:02Z"
+ },
+ "418": {
+  "spoken_id": "1000759360502",
+  "title": "#418 - Allarme Notturno",
+  "date": "2026-04-05T08:15:02Z"
+ },
+ "417": {
+  "spoken_id": "1000757991013",
+  "title": "#417 - Titan il Barbiere di Phang Ka",
+  "date": "2026-03-29T04:15:01Z"
+ },
+ "416": {
+  "spoken_id": "1000756569511",
+  "title": "#416 - Con Gusto",
+  "date": "2026-03-22T09:15:02Z"
+ },
+ "415": {
+  "spoken_id": "1000755381624",
+  "title": "#415 - 5 Capacità l'IA Non Può Rimpiazzare",
+  "date": "2026-03-15T09:15:02Z"
+ },
+ "414": {
+  "spoken_id": "1000753858941",
+  "title": "#414 - Nicchia e Posizionamento",
+  "date": "2026-03-08T09:15:02Z"
+ },
+ "413": {
+  "spoken_id": "1000752297322",
+  "title": "#413 - Il Metodo dell'Uccello Giardiniere",
+  "date": "2026-03-01T09:15:12Z"
+ },
+ "412": {
+  "spoken_id": "1000750861868",
+  "title": "#412 - Cartoline Thinking of You",
+  "date": "2026-02-22T09:15:03Z"
+ },
+ "411": {
+  "spoken_id": "1000749814370",
+  "title": "#411 - Spessore Oltre le Apparenze",
+  "date": "2026-02-15T09:15:02Z"
+ },
+ "410": {
+  "spoken_id": "1000748755790",
+  "title": "#410 - Mostrare Il Dietro le Quinte: Paradata",
+  "date": "2026-02-08T09:15:02Z"
+ },
+ "409": {
+  "spoken_id": "1000747549275",
+  "title": "#409 - Saggia Selezione",
+  "date": "2026-02-01T09:15:07Z"
+ },
+ "408": {
+  "spoken_id": "1000746547142",
+  "title": "#408 - La Mia Love Story con la Curation",
+  "date": "2026-01-25T09:15:09Z"
+ },
+ "407": {
+  "spoken_id": "1000745605686",
+  "title": "#407 - New Influencer = Meta-Curator",
+  "date": "2026-01-18T09:15:07Z"
+ },
+ "406": {
+  "spoken_id": "1000744665162",
+  "title": "#406 - Gli Attrezzi del Curatore",
+  "date": "2026-01-11T09:15:07Z"
+ },
+ "405": {
+  "spoken_id": "1000743679177",
+  "title": "#405 - Autorevole Senza Scrivere",
+  "date": "2026-01-04T09:15:07Z"
+ },
+ "404": {
+  "spoken_id": "1000742928640",
+  "title": "#404 - Trust Leader",
+  "date": "2025-12-28T09:15:07Z"
+ },
+ "403": {
+  "spoken_id": "1000742182386",
+  "title": "#403 - Intelligenza Cristallizzata",
+  "date": "2025-12-21T09:15:07Z"
+ },
+ "402": {
+  "spoken_id": "1000741205076",
+  "title": "#402 - da Voci a Risorse",
+  "date": "2025-12-14T09:15:08Z"
+ },
+ "401": {
+  "spoken_id": "1000740058656",
+  "title": "#401 - Umanità",
+  "date": "2025-12-07T09:15:07Z"
+ },
+ "400": {
+  "spoken_id": "1000738978192",
+  "title": "#400 - Filtrare",
+  "date": "2025-11-30T09:15:07Z"
+ },
+ "399": {
+  "spoken_id": "1000737977939",
+  "title": "#399 - Consiglieri Fidati",
+  "date": "2025-11-23T09:15:07Z"
+ },
+ "398": {
+  "spoken_id": "1000736938121",
+  "title": "#398 - Curation Come Prova Tangibile",
+  "date": "2025-11-16T09:15:07Z"
+ },
+ "397": {
+  "spoken_id": "1000735942831",
+  "title": "#397 - Dare Profondità",
+  "date": "2025-11-09T09:15:08Z"
+ },
+ "396": {
+  "spoken_id": "1000734811868",
+  "title": "#396 - Crea Arcipelaghi di Conoscenza",
+  "date": "2025-11-02T09:15:08Z"
+ },
+ "395": {
+  "spoken_id": "1000733538527",
+  "title": "#395 - Prompt Frameworks",
+  "date": "2025-10-26T09:15:09Z"
+ },
+ "394": {
+  "spoken_id": "1000732503421",
+  "title": "#394 - Guide vs Venditori",
+  "date": "2025-10-19T08:15:07Z"
+ },
+ "393": {
+  "spoken_id": "1000731426839",
+  "title": "#393 - Guadagnarsi la Fiducia a Distanza",
+  "date": "2025-10-12T08:15:08Z"
+ },
+ "392": {
+  "spoken_id": "1000730194673",
+  "title": "#392 - Accrescere la Tua Credibilità",
+  "date": "2025-10-05T08:15:07Z"
+ },
+ "391": {
+  "spoken_id": "1000728865420",
+  "title": "#391 - Dimostrare Affidabilità",
+  "date": "2025-09-28T08:15:07Z"
+ },
+ "390": {
+  "spoken_id": "1000727710738",
+  "title": "#390 - Trova la Tua Voce",
+  "date": "2025-09-21T08:15:07Z"
+ },
+ "389": {
+  "spoken_id": "1000726733930",
+  "title": "#389 - Scrivere per Conoscere",
+  "date": "2025-09-14T08:15:08Z"
+ },
+ "388": {
+  "spoken_id": "1000725363787",
+  "title": "#388 - Come a una Festa",
+  "date": "2025-09-07T08:15:07Z"
+ },
+ "387": {
+  "spoken_id": "1000724238977",
+  "title": "#387 - Lorenzo Z",
+  "date": "2025-08-31T08:15:08Z"
+ },
+ "386": {
+  "spoken_id": "1000723269738",
+  "title": "#386 - Formiche Verdi",
+  "date": "2025-08-24T03:15:07Z"
+ },
+ "385": {
+  "spoken_id": "1000722273153",
+  "title": "#385 - Rimanere Rilevanti 4",
+  "date": "2025-08-17T08:15:07Z"
+ },
+ "384": {
+  "spoken_id": "1000721365686",
+  "title": "#384 - Sii Come Sei",
+  "date": "2025-08-10T08:15:07Z"
+ },
+ "383": {
+  "spoken_id": "1000720470984",
+  "title": "#383 - L'IA E' Uno Specchio",
+  "date": "2025-08-03T08:15:07Z"
+ },
+ "382": {
+  "spoken_id": "1000719242401",
+  "title": "#382 - Grandi Opportunità",
+  "date": "2025-07-27T03:15:07Z"
+ },
+ "381": {
+  "spoken_id": "1000718137408",
+  "title": "#381 - Public Domain Review",
+  "date": "2025-07-20T08:15:07Z"
+ },
+ "380": {
+  "spoken_id": "1000717007512",
+  "title": "#380 - Master Prompt",
+  "date": "2025-07-13T03:15:07Z"
+ },
+ "379": {
+  "spoken_id": "1000715961700",
+  "title": "#379 - Rimanere Rilevanti 3",
+  "date": "2025-07-06T08:15:08Z"
+ },
+ "378": {
+  "spoken_id": "1000714992970",
+  "title": "#378 - Vibe Coding p3",
+  "date": "2025-06-29T08:15:07Z"
+ },
+ "377": {
+  "spoken_id": "1000714010074",
+  "title": "#377 - Vibe Coding p2",
+  "date": "2025-06-22T03:15:07Z"
+ },
+ "376": {
+  "spoken_id": "1000712925158",
+  "title": "#376 - Vibe Coding p1",
+  "date": "2025-06-15T03:15:07Z"
+ },
+ "374": {
+  "spoken_id": "1000710731773",
+  "title": "#374 - ContentFinderToolkit",
+  "date": "2025-06-01T08:15:08Z"
+ },
+ "373": {
+  "spoken_id": "1000709770412",
+  "title": "#373 - Guanti per i Piedi",
+  "date": "2025-05-25T08:15:07Z"
+ },
+ "372": {
+  "spoken_id": "1000708874839",
+  "title": "#372 - Produttività e Salute",
+  "date": "2025-05-18T08:15:07Z"
+ },
+ "371": {
+  "spoken_id": "1000707974227",
+  "title": "#371 - Scimmie Anticocco",
+  "date": "2025-05-11T08:15:08Z"
+ },
+ "370": {
+  "spoken_id": "1000706140384",
+  "title": "#370 - La Nicchia Sei Tu",
+  "date": "2025-05-04T08:15:08Z"
+ },
+ "369": {
+  "spoken_id": "1000705109215",
+  "title": "#369 - Rimanere Rilevanti 2",
+  "date": "2025-04-27T08:15:07Z"
+ },
+ "368": {
+  "spoken_id": "1000704179237",
+  "title": "#368 - IA e Mini-App",
+  "date": "2025-04-20T08:15:07Z"
+ },
+ "367": {
+  "spoken_id": "1000703333717",
+  "title": "#367 - Rimanere Rilevanti",
+  "date": "2025-04-13T08:15:07Z"
+ },
+ "366": {
+  "spoken_id": "1000702365746",
+  "title": "#366 - Giocare Ascoltare",
+  "date": "2025-04-06T09:15:07Z"
+ },
+ "365": {
+  "spoken_id": "1000701430475",
+  "title": "#365 - Una App al Mese",
+  "date": "2025-03-30T09:15:07Z"
+ },
+ "364": {
+  "spoken_id": "1000700458427",
+  "title": "#364 - A Bordo Ring",
+  "date": "2025-03-23T09:15:07Z"
+ },
+ "363": {
+  "spoken_id": "1000699355754",
+  "title": "#363 - C**k Fight",
+  "date": "2025-03-16T09:15:07Z"
+ },
+ "362": {
+  "spoken_id": "1000698450035",
+  "title": "#362 - Francis Samui Retreat",
+  "date": "2025-03-09T09:15:06Z"
+ },
+ "361": {
+  "spoken_id": "1000633730463",
+  "title": "#293 - Sotto la Pioggia",
+  "date": "2023-11-05T09:15:02Z"
+ },
+ "360": {
+  "spoken_id": "1000695241880",
+  "title": "#360 - Re di Bastoni",
+  "date": "2025-02-23T09:15:07Z"
+ },
+ "359": {
+  "spoken_id": "1000692729419",
+  "title": "#359 - Thai Cheeseburger",
+  "date": "2025-02-16T09:15:07Z"
+ },
+ "357": {
+  "spoken_id": "1000688149068",
+  "title": "#357 - Il Contadino Cinese",
+  "date": "2025-02-02T09:15:06Z"
+ },
+ "356": {
+  "spoken_id": "1000685491717",
+  "title": "#356 - Ready-To-Go",
+  "date": "2025-01-26T09:15:06Z"
+ },
+ "355": {
+  "spoken_id": "1000684558962",
+  "title": "#355 - iPhone Missing",
+  "date": "2025-01-19T09:15:06Z"
+ },
+ "353": {
+  "spoken_id": "1000682727998",
+  "title": "#353 - Funzionale, Non-Bello",
+  "date": "2025-01-05T09:15:07Z"
+ },
+ "352": {
+  "spoken_id": "1000682014050",
+  "title": "#352 - La Spiaggia Segreta",
+  "date": "2024-12-29T09:15:06Z"
+ },
+ "350": {
+  "spoken_id": "1000680416003",
+  "title": "#350 - Fuori dalla Zona di Comfort",
+  "date": "2024-12-15T09:15:06Z"
+ },
+ "349": {
+  "spoken_id": "1000679632967",
+  "title": "#349 - Passport Inferno",
+  "date": "2024-12-08T09:15:07Z"
+ },
+ "348": {
+  "spoken_id": "1000678772701",
+  "title": "#348 - FotoLavanderia",
+  "date": "2024-12-01T09:15:06Z"
+ },
+ "344": {
+  "spoken_id": "1000675498921",
+  "title": "#344 - Thailandia Prime Impressioni",
+  "date": "2024-11-03T09:15:01Z"
+ },
+ "342": {
+  "spoken_id": "1000673725987",
+  "title": "#342 - Guadagnarsi la Fiducia",
+  "date": "2024-10-20T08:15:02Z"
+ },
+ "341": {
+  "spoken_id": "1000672874597",
+  "title": "#341 - Di Chi Fidarsi",
+  "date": "2024-10-13T08:15:03Z"
+ },
+ "338": {
+  "spoken_id": "1000670288448",
+  "title": "#338 - Paradiso Gratis",
+  "date": "2024-09-22T08:15:02Z"
+ },
+ "337": {
+  "spoken_id": "1000669585326",
+  "title": "#337 - Il Viaggio",
+  "date": "2024-09-15T08:15:02Z"
+ },
+ "335": {
+  "spoken_id": "1000667891007",
+  "title": "#335 - Due Mesi All'Anno",
+  "date": "2024-08-31T20:15:01Z"
+ },
+ "334": {
+  "spoken_id": "1000666543271",
+  "title": "#334 - Per Sentito Dire 2",
+  "date": "2024-08-25T14:25:05Z"
+ },
+ "333": {
+  "spoken_id": "1000665762895",
+  "title": "#333 - Per Sentito Dire",
+  "date": "2024-08-18T08:15:03Z"
+ },
+ "332": {
+  "spoken_id": "1000664935862",
+  "title": "#332 - Formula di Sharewood 2024",
+  "date": "2024-08-11T08:15:02Z"
+ },
+ "331": {
+  "spoken_id": "1000664266393",
+  "title": "#331 - Smantellare i Dubbi",
+  "date": "2024-08-04T08:15:02Z"
+ },
+ "330": {
+  "spoken_id": "1000663565674",
+  "title": "#330 - Mille Veri Fan",
+  "date": "2024-07-28T08:15:02Z"
+ },
+ "329": {
+  "spoken_id": "1000662156675",
+  "title": "#329 - Uragano Curation",
+  "date": "2024-07-14T08:15:28Z"
+ },
+ "328": {
+  "spoken_id": "1000661304356",
+  "title": "#328 - Rimanere Rilevanti nell'Era dell'IA",
+  "date": "2024-07-06T08:15:02Z"
+ },
+ "326": {
+  "spoken_id": "1000659938251",
+  "title": "#326 - Chi Sa, Insegna",
+  "date": "2024-06-23T08:15:02Z"
+ },
+ "325": {
+  "spoken_id": "1000659097447",
+  "title": "#325 - Babbo Natale Non C'è",
+  "date": "2024-06-15T08:15:02Z"
+ },
+ "324": {
+  "spoken_id": "1000658333225",
+  "title": "#324 - La Conversazione Infinita",
+  "date": "2024-06-09T08:15:02Z"
+ },
+ "321": {
+  "spoken_id": "1000656040927",
+  "title": "#321 - Music Curation",
+  "date": "2024-05-19T08:15:02Z"
+ },
+ "320": {
+  "spoken_id": "1000655302392",
+  "title": "#320 - Produttività: La Tecnica Nonomura",
+  "date": "2024-05-12T08:15:02Z"
+ },
+ "319": {
+  "spoken_id": "1000654566926",
+  "title": "#319 - IA: Dove Batterla",
+  "date": "2024-05-05T08:15:02Z"
+ },
+ "318": {
+  "spoken_id": "1000653807040",
+  "title": "#318 - Strategia per Imprenditori Indipendenti",
+  "date": "2024-04-28T08:15:02Z"
+ },
+ "317": {
+  "spoken_id": "1000653098950",
+  "title": "#317 - Come Promuovere la Tua Newsletter a Costo Zero",
+  "date": "2024-04-21T08:15:02Z"
+ },
+ "316": {
+  "spoken_id": "1000652379943",
+  "title": "#316 - Aiutare Veramente",
+  "date": "2024-04-14T08:15:02Z"
+ },
+ "315": {
+  "spoken_id": "1000651665434",
+  "title": "#315 - Scrivere Chiaramente",
+  "date": "2024-04-07T08:15:01Z"
+ },
+ "314": {
+  "spoken_id": "1000650968586",
+  "title": "#314 - Guadagnare Fiducia Scrivendo",
+  "date": "2024-03-31T08:15:02Z"
+ },
+ "313": {
+  "spoken_id": "1000650249307",
+  "title": "#313 - Dire SI, Dire NO",
+  "date": "2024-03-24T09:15:01Z"
+ },
+ "311": {
+  "spoken_id": "1000648635534",
+  "title": "#311 - IA Costar",
+  "date": "2024-03-10T09:15:01Z"
+ },
+ "310": {
+  "spoken_id": "1000647815086",
+  "title": "#310 - Condividere per Apprendere",
+  "date": "2024-03-03T09:15:01Z"
+ },
+ "309": {
+  "spoken_id": "1000646773940",
+  "title": "#309 - Insistere",
+  "date": "2024-02-25T16:15:01Z"
+ },
+ "308": {
+  "spoken_id": "1000645745025",
+  "title": "#308 - Dare Assistenza",
+  "date": "2024-02-18T09:15:01Z"
+ },
+ "307": {
+  "spoken_id": "1000644918836",
+  "title": "#307 - Comunicare Amore",
+  "date": "2024-02-11T09:15:01Z"
+ },
+ "306": {
+  "spoken_id": "1000644089867",
+  "title": "#306 - Business Love",
+  "date": "2024-02-04T09:15:02Z"
+ },
+ "305": {
+  "spoken_id": "1000643245166",
+  "title": "#305 - Cerca Cerca",
+  "date": "2024-01-28T09:15:01Z"
+ },
+ "304": {
+  "spoken_id": "1000642368327",
+  "title": "#304 - Coltivare Altruismo",
+  "date": "2024-01-21T09:15:01Z"
+ },
+ "303": {
+  "spoken_id": "1000641581999",
+  "title": "#303 - Entrare in Confidenza (Intimità)",
+  "date": "2024-01-14T09:15:02Z"
+ },
+ "302": {
+  "spoken_id": "1000640791755",
+  "title": "#302 - Affidabilità",
+  "date": "2024-01-07T09:15:02Z"
+ },
+ "301": {
+  "spoken_id": "1000640142294",
+  "title": "#301 - Credibilità: Apparire Esperti",
+  "date": "2023-12-31T09:15:02Z"
+ },
+ "300": {
+  "spoken_id": "1000639577205",
+  "title": "#300 - Formula della Fiducia",
+  "date": "2023-12-24T09:15:02Z"
+ },
+ "299": {
+  "spoken_id": "1000638832873",
+  "title": "#299 - Tre Fattori Critici",
+  "date": "2023-12-17T09:15:02Z"
+ },
+ "298": {
+  "spoken_id": "1000638076093",
+  "title": "#298 - Fatti Trovare",
+  "date": "2023-12-10T09:15:02Z"
+ },
+ "297": {
+  "spoken_id": "1000637318514",
+  "title": "#297 - Ottenere Feedback",
+  "date": "2023-12-03T09:15:02Z"
+ },
+ "296": {
+  "spoken_id": "1000636534789",
+  "title": "#296 - Monetizzare Know-How Formula",
+  "date": "2023-11-26T09:15:02Z"
+ },
+ "295": {
+  "spoken_id": "1000635317335",
+  "title": "#295 - Monetizzare il Proprio Know-How",
+  "date": "2023-11-19T09:15:02Z"
+ },
+ "294": {
+  "spoken_id": "1000634520105",
+  "title": "#294 - Ultima Puntata",
+  "date": "2023-11-12T09:15:02Z"
+ },
+ "291": {
+  "spoken_id": "1000632104807",
+  "title": "#291 - Fatti Sentire",
+  "date": "2023-10-21T08:15:02Z"
+ },
+ "290": {
+  "spoken_id": "1000631347578",
+  "title": "#290 - Erick DJ",
+  "date": "2023-10-15T08:15:02Z"
+ },
+ "289": {
+  "spoken_id": "1000630581988",
+  "title": "#289 - Disco Dengue",
+  "date": "2023-10-08T08:15:02Z"
+ },
+ "288": {
+  "spoken_id": "1000629785603",
+  "title": "#288 - Astronauta",
+  "date": "2023-10-01T08:15:02Z"
+ },
+ "287": {
+  "spoken_id": "1000628959167",
+  "title": "#287 - Fossa delle Marianne",
+  "date": "2023-09-24T08:15:02Z"
+ },
+ "286": {
+  "spoken_id": "1000628139845",
+  "title": "#286 - Orizzontale",
+  "date": "2023-09-17T08:15:02Z"
+ },
+ "285": {
+  "spoken_id": "1000627351811",
+  "title": "#285 - Troppo Forte",
+  "date": "2023-09-10T08:15:01Z"
+ },
+ "284": {
+  "spoken_id": "1000625821875",
+  "title": "#284 - La Dose Giornaliera",
+  "date": "2023-08-27T08:15:02Z"
+ },
+ "283": {
+  "spoken_id": "1000625016557",
+  "title": "#283 - Coltivare Sogni",
+  "date": "2023-08-20T08:15:02Z"
+ },
+ "282": {
+  "spoken_id": "1000624286021",
+  "title": "#282 - Collane con Intenzione",
+  "date": "2023-08-13T08:15:01Z"
+ },
+ "281": {
+  "spoken_id": "1000623570033",
+  "title": "#281 - Tutti Sotto Coperta",
+  "date": "2023-08-06T08:15:02Z"
+ },
+ "280": {
+  "spoken_id": "1000622806267",
+  "title": "#280 - Rimani Aperto",
+  "date": "2023-07-30T08:15:02Z"
+ },
+ "279": {
+  "spoken_id": "1000622028692",
+  "title": "#279 - Circondati di Gente Più in Gamba",
+  "date": "2023-07-23T08:15:02Z"
+ },
+ "277": {
+  "spoken_id": "1000620285808",
+  "title": "#277 - Così Fan Tutti",
+  "date": "2023-07-09T08:15:02Z"
+ },
+ "276": {
+  "spoken_id": "1000619018170",
+  "title": "#276 - Coglila Subito",
+  "date": "2023-07-02T08:15:01Z"
+ },
+ "275": {
+  "spoken_id": "1000618229455",
+  "title": "#275 - Cova le Tue Idee",
+  "date": "2023-06-25T08:15:01Z"
+ },
+ "274": {
+  "spoken_id": "1000589737739",
+  "title": "#247 - Le Apparenze Ingannano",
+  "date": "2022-12-11T09:15:02Z"
+ },
+ "272": {
+  "spoken_id": "1000615583488",
+  "title": "#272 - Verifica di Persona",
+  "date": "2023-06-04T08:15:01Z"
+ },
+ "271": {
+  "spoken_id": "1000614757784",
+  "title": "#271 - Trovali",
+  "date": "2023-05-28T13:01:47Z"
+ },
+ "270": {
+  "spoken_id": "1000613845958",
+  "title": "#270 - No Hay Gente",
+  "date": "2023-05-21T08:15:01Z"
+ },
+ "269": {
+  "spoken_id": "1000612945428",
+  "title": "#269 - Presa per il Telefono",
+  "date": "2023-05-14T08:15:01Z"
+ },
+ "265": {
+  "spoken_id": "1000609135965",
+  "title": "#265 - Ascoltare per Accogliere",
+  "date": "2023-04-16T08:15:01Z"
+ },
+ "264": {
+  "spoken_id": "1000608043857",
+  "title": "#264 - IA Immune: Cosa Coltivare",
+  "date": "2023-04-09T08:15:01Z"
+ },
+ "263": {
+  "spoken_id": "1000606954009",
+  "title": "#263 - Raccontami Tutto",
+  "date": "2023-04-02T08:15:01Z"
+ },
+ "261": {
+  "spoken_id": "1000604812401",
+  "title": "#261 - l'Intelligenza Artificiale Ti Ruberà il Lavoro?",
+  "date": "2023-03-19T09:15:02Z"
+ },
+ "260": {
+  "spoken_id": "1000603776343",
+  "title": "#260 - Spegni il Rumore Intorno",
+  "date": "2023-03-12T09:15:01Z"
+ },
+ "259": {
+  "spoken_id": "1000559951693",
+  "title": "#216 - Coltivare Relazioni",
+  "date": "2022-05-08T08:15:02Z"
+ },
+ "258": {
+  "spoken_id": "1000601622618",
+  "title": "#258 - Raccogli e Organizza",
+  "date": "2023-02-26T09:15:01Z"
+ },
+ "257": {
+  "spoken_id": "1000600381014",
+  "title": "#257 - Interessati",
+  "date": "2023-02-19T09:15:01Z"
+ },
+ "256": {
+  "spoken_id": "1000599194359",
+  "title": "#256 - Allenati in Pubblico",
+  "date": "2023-02-12T09:15:01Z"
+ },
+ "255": {
+  "spoken_id": "1000598041854",
+  "title": "#255 - Non Escludere Nessuna Strada",
+  "date": "2023-02-05T09:15:01Z"
+ },
+ "254": {
+  "spoken_id": "1000597101561",
+  "title": "#254 - Guardare Oltre le Apparenze",
+  "date": "2023-01-29T09:15:01Z"
+ },
+ "253": {
+  "spoken_id": "1000595923992",
+  "title": "#253 - Prendersi le Responsabilità",
+  "date": "2023-01-22T09:15:01Z"
+ },
+ "252": {
+  "spoken_id": "1000594478958",
+  "title": "#252 - Rimanere a Fuoco",
+  "date": "2023-01-15T09:15:01Z"
+ },
+ "250": {
+  "spoken_id": "1000591811281",
+  "title": "#250 - Le Gioie della Vita",
+  "date": "2023-01-01T09:15:02Z"
+ },
+ "249": {
+  "spoken_id": "1000591232908",
+  "title": "#249 - Perimetra la Tua Nicchia",
+  "date": "2022-12-25T09:15:01Z"
+ },
+ "248": {
+  "spoken_id": "1000590520946",
+  "title": "#248 - Pagato per Scegliere",
+  "date": "2022-12-18T09:15:02Z"
+ },
+ "246": {
+  "spoken_id": "1000588672033",
+  "title": "#246 - Meglio Una Che Due",
+  "date": "2022-12-04T09:15:02Z"
+ },
+ "245": {
+  "spoken_id": "1000587598227",
+  "title": "#245 - Quando Scassano Alza i Prezzi",
+  "date": "2022-11-27T09:15:02Z"
+ },
+ "244": {
+  "spoken_id": "1000586845603",
+  "title": "#244 - Presentati Sempre",
+  "date": "2022-11-20T09:15:01Z"
+ },
+ "243": {
+  "spoken_id": "1000585994688",
+  "title": "#243 - Costanza per Apprendere",
+  "date": "2022-11-13T09:15:02Z"
+ },
+ "242": {
+  "spoken_id": "1000585212907",
+  "title": "#242 - Differenziati Attraverso il Come",
+  "date": "2022-11-06T09:15:02Z"
+ },
+ "241": {
+  "spoken_id": "1000584380021",
+  "title": "#241 - Critiche Si, Ma Costruttive",
+  "date": "2022-10-30T09:15:02Z"
+ },
+ "240": {
+  "spoken_id": "1000583573210",
+  "title": "#240 - Datti il Permesso",
+  "date": "2022-10-23T08:15:02Z"
+ },
+ "239": {
+  "spoken_id": "1000582779812",
+  "title": "#239 - Da Chi Ho Imparato",
+  "date": "2022-10-16T08:15:02Z"
+ },
+ "238": {
+  "spoken_id": "1000581988823",
+  "title": "#238 - Per Essere Originale, Prima Copia",
+  "date": "2022-10-08T08:15:01Z"
+ },
+ "237": {
+  "spoken_id": "1000581280985",
+  "title": "#237 - Cogli il Momento con la Tua Voce Scritta",
+  "date": "2022-10-02T08:15:02Z"
+ },
+ "236": {
+  "spoken_id": "1000580548458",
+  "title": "#236 - Tagliare i Rami Secchi",
+  "date": "2022-09-25T08:15:02Z"
+ },
+ "234": {
+  "spoken_id": "1000579080502",
+  "title": "#234 - Consiglieri di Fiducia",
+  "date": "2022-09-11T08:15:02Z"
+ },
+ "233": {
+  "spoken_id": "1000578305517",
+  "title": "#233 - Che Rimarrà Dopo?",
+  "date": "2022-09-04T08:15:02Z"
+ },
+ "232": {
+  "spoken_id": "1000577559639",
+  "title": "#232 - Esserci",
+  "date": "2022-08-28T08:15:01Z"
+ },
+ "231": {
+  "spoken_id": "1000576730275",
+  "title": "#231 - Mi Sento Libero",
+  "date": "2022-08-21T08:15:20Z"
+ },
+ "230": {
+  "spoken_id": "1000576015392",
+  "title": "#230 - Mostrati - Coinvolgiti",
+  "date": "2022-08-14T08:15:02Z"
+ },
+ "229": {
+  "spoken_id": "1000575260037",
+  "title": "#229 - Quando Affidarsi a un Social Media Manager",
+  "date": "2022-08-07T08:15:02Z"
+ },
+ "228": {
+  "spoken_id": "1000574513507",
+  "title": "#228 - Staff Come SMM: Benefici e Vantaggi",
+  "date": "2022-07-31T08:15:02Z"
+ },
+ "227": {
+  "spoken_id": "1000570977364",
+  "title": "#227 - Social Media Manager - a Che Serve?",
+  "date": "2022-07-24T08:15:02Z"
+ },
+ "226": {
+  "spoken_id": "1000570173179",
+  "title": "#226 - Social Media Manager: Si o No?",
+  "date": "2022-07-17T08:15:02Z"
+ },
+ "225": {
+  "spoken_id": "1000569342773",
+  "title": "#225 - Meglio Più Pubblico o Meglio Più Fuoco?",
+  "date": "2022-07-09T08:15:02Z"
+ },
+ "224": {
+  "spoken_id": "1000568619061",
+  "title": "#224 - Non Dare Consigli",
+  "date": "2022-07-03T08:15:02Z"
+ },
+ "223": {
+  "spoken_id": "1000567742257",
+  "title": "#223 - Più Ti Interessi Più Vendi",
+  "date": "2022-06-26T13:15:02Z"
+ },
+ "222": {
+  "spoken_id": "1000567025524",
+  "title": "#222 - Il Mondo che Hai Dimenticato di Vivere",
+  "date": "2022-06-19T08:15:02Z"
+ },
+ "221": {
+  "spoken_id": "1000566120373",
+  "title": "221 - La Formula della Fiducia",
+  "date": "2022-06-12T08:15:02Z"
+ },
+ "220": {
+  "spoken_id": "1000565255148",
+  "title": "#220 - Think Strategy, Before Tactics",
+  "date": "2022-06-05T08:15:02Z"
+ },
+ "219": {
+  "spoken_id": "1000564383693",
+  "title": "#219 - Marketing Sinergico",
+  "date": "2022-05-29T08:15:02Z"
+ },
+ "218": {
+  "spoken_id": "1000563106061",
+  "title": "#218 - Usa i Problemi per Guadagnare Fiducia",
+  "date": "2022-05-22T08:15:02Z"
+ },
+ "217": {
+  "spoken_id": "1000561420285",
+  "title": "#217 - La Promozione E' Tutto",
+  "date": "2022-05-15T08:15:02Z"
+ },
+ "215": {
+  "spoken_id": "1000559178866",
+  "title": "#215 - Imprenditore o Cassiere Stanco",
+  "date": "2022-04-30T08:15:02Z"
+ },
+ "213": {
+  "spoken_id": "1000557821943",
+  "title": "#213 - e Mo' Che Scrivo?",
+  "date": "2022-04-17T08:15:02Z"
+ },
+ "212": {
+  "spoken_id": "1000556865176",
+  "title": "#212 - Dimmi Cosa Fai",
+  "date": "2022-04-10T08:15:02Z"
+ },
+ "211": {
+  "spoken_id": "1000556303295",
+  "title": "#211 - Permissionless Marketing",
+  "date": "2022-04-05T12:30:50Z"
+ },
+ "210": {
+  "spoken_id": "1000555352078",
+  "title": "#210 - Se Non Chiedi Non Ottieni",
+  "date": "2022-03-27T09:15:02Z"
+ },
+ "209": {
+  "spoken_id": "1000554609090",
+  "title": "#209 - Intercettare vs. Strillare",
+  "date": "2022-03-20T09:15:02Z"
+ },
+ "207": {
+  "spoken_id": "1000553060279",
+  "title": "#207 - Come Scrivere in Maniera Efficace",
+  "date": "2022-03-06T09:15:02Z"
+ },
+ "206": {
+  "spoken_id": "1000552340662",
+  "title": "#206 - Come Farli Ritornare",
+  "date": "2022-02-27T09:15:03Z"
+ },
+ "205": {
+  "spoken_id": "1000551656988",
+  "title": "#205 - Fatti Riconoscere",
+  "date": "2022-02-20T09:15:02Z"
+ },
+ "204": {
+  "spoken_id": "1000550928023",
+  "title": "#204 - Faccio Faccio Ma Non Mi Caga Nessuno",
+  "date": "2022-02-13T09:15:02Z"
+ },
+ "202": {
+  "spoken_id": "1000549415976",
+  "title": "#202 - Come Guadagnare la Fiducia degli Altri",
+  "date": "2022-01-30T09:15:02Z"
+ },
+ "201": {
+  "spoken_id": "1000548712189",
+  "title": "#201 - Fai Sentire la Tua Voce",
+  "date": "2022-01-23T09:15:02Z"
+ },
+ "200": {
+  "spoken_id": "1000548009882",
+  "title": "#200 - Trovare il Pubblico Ideale",
+  "date": "2022-01-16T09:15:02Z"
+ },
+ "199": {
+  "spoken_id": "1000547319306",
+  "title": "7 Principi Guida",
+  "date": "2022-01-09T09:15:02Z"
+ },
+ "197": {
+  "spoken_id": "1000546313776",
+  "title": "Newsletter Marketing",
+  "date": "2021-12-28T09:15:02Z"
+ },
+ "196": {
+  "spoken_id": "1000545407825",
+  "title": "Newsletter Workflow",
+  "date": "2021-12-19T09:15:02Z"
+ },
+ "195": {
+  "spoken_id": "1000544703329",
+  "title": "Newsletter Format",
+  "date": "2021-12-12T09:15:02Z"
+ },
+ "191": {
+  "spoken_id": "1000541729022",
+  "title": "Da Dove Iniziare",
+  "date": "2021-11-14T08:15:15Z"
+ },
+ "188": {
+  "spoken_id": "1000539523811",
+  "title": "10 Motivi per NON Trasferirsi a Holbox",
+  "date": "2021-10-24T08:15:18Z"
+ },
+ "187": {
+  "spoken_id": "1000538814259",
+  "title": "Ho perso l'iPhone",
+  "date": "2021-10-17T08:15:15Z"
+ },
+ "186": {
+  "spoken_id": "1000538100988",
+  "title": "VISA Miami 3: Immigration Cancun",
+  "date": "2021-10-10T08:15:12Z"
+ },
+ "185": {
+  "spoken_id": "1000537365922",
+  "title": "VISA Miami p2: Consolato-MX",
+  "date": "2021-10-03T08:15:12Z"
+ },
+ "184": {
+  "spoken_id": "1000536631620",
+  "title": "VISA Miami - p1",
+  "date": "2021-09-26T08:15:11Z"
+ },
+ "183": {
+  "spoken_id": "1000535896668",
+  "title": "*GG All Stars*",
+  "date": "2021-09-19T08:15:16Z"
+ },
+ "180": {
+  "spoken_id": "1000533433776",
+  "title": "Cristobal e la Tempesta",
+  "date": "2021-08-29T08:15:14Z"
+ },
+ "179": {
+  "spoken_id": "1000532707312",
+  "title": "HBX Nightlife",
+  "date": "2021-08-22T08:15:06Z"
+ },
+ "175": {
+  "spoken_id": "1000529940788",
+  "title": "Alla Scoperta di Holbox",
+  "date": "2021-07-25T08:15:09Z"
+ },
+ "174": {
+  "spoken_id": "1000529212802",
+  "title": "Pensavo di Essere Arrivato nel Posto Sbagliato",
+  "date": "2021-07-18T08:15:15Z"
+ },
+ "173": {
+  "spoken_id": "1000528526590",
+  "title": "Un Viaggio che Non Scorderò Mai: TER-CUN",
+  "date": "2021-07-11T16:15:08Z"
+ },
+ "172": {
+  "spoken_id": "1000527770424",
+  "title": "Come Ho Scoperto Holbox (Mex)",
+  "date": "2021-07-04T08:15:16Z"
+ },
+ "171": {
+  "spoken_id": "1000526999158",
+  "title": "Come Ho Rivoluzionato la Mia Vita",
+  "date": "2021-06-27T08:15:11Z"
+ },
+ "170": {
+  "spoken_id": "1000526158053",
+  "title": "Mettersi in Discussione",
+  "date": "2021-06-20T08:15:15Z"
+ },
+ "169": {
+  "spoken_id": "1000525321344",
+  "title": "Che Linguaggio Usare sui Social",
+  "date": "2021-06-13T08:15:05Z"
+ },
+ "168": {
+  "spoken_id": "1000524379350",
+  "title": "Posizionamento di Nicchia: I 4 Errori Più Comuni",
+  "date": "2021-06-06T08:15:18Z"
+ },
+ "167": {
+  "spoken_id": "1000523540575",
+  "title": "Come Individuare la Tua Nicchia di Mercato: 3 Consigli Pratici",
+  "date": "2021-05-30T08:15:10Z"
+ },
+ "165": {
+  "spoken_id": "1000521808878",
+  "title": "La Miglior Strategia di Content Marketing - Parte 2",
+  "date": "2021-05-15T08:15:09Z"
+ },
+ "164": {
+  "spoken_id": "1000520916302",
+  "title": "La Miglior Strategia di Content Marketing - P1",
+  "date": "2021-05-09T08:15:10Z"
+ },
+ "163": {
+  "spoken_id": "1000519687057",
+  "title": "Considerati una Media Company",
+  "date": "2021-05-02T08:15:06Z"
+ },
+ "162": {
+  "spoken_id": "1000518516550",
+  "title": "100 Veri Fan Bastano",
+  "date": "2021-04-25T08:15:13Z"
+ },
+ "161": {
+  "spoken_id": "1000517597875",
+  "title": "Strategie per il Futuro: #11 No Distractions",
+  "date": "2021-04-18T08:15:10Z"
+ },
+ "159": {
+  "spoken_id": "1000515683443",
+  "title": "Strategie per il Futuro: #9 Imparare le Fondamenta",
+  "date": "2021-04-04T09:15:10Z"
+ },
+ "158": {
+  "spoken_id": "1000514710553",
+  "title": "Strategie per il Futuro: #8 Imparare ad Apprendere",
+  "date": "2021-03-28T09:15:17Z"
+ },
+ "157": {
+  "spoken_id": "1000513828922",
+  "title": "Strategie per il Futuro: #7 Trova il Tuo Scopo",
+  "date": "2021-03-21T09:15:03Z"
+ },
+ "156": {
+  "spoken_id": "1000512900229",
+  "title": "Strategie per il Futuro: #6 Informati",
+  "date": "2021-03-14T09:15:09Z"
+ },
+ "155": {
+  "spoken_id": "1000511919823",
+  "title": "Strategie per il Futuro: #5 Coltiva e Vendi il Tuo Know-How",
+  "date": "2021-03-07T09:15:06Z"
+ },
+ "154": {
+  "spoken_id": "1000510965896",
+  "title": "Strategie per il Futuro: #4 Impara un'Altra Lingua",
+  "date": "2021-02-28T09:15:17Z"
+ },
+ "152": {
+  "spoken_id": "1000508954018",
+  "title": "Strategie per il Futuro: #2 Crea una Comunità",
+  "date": "2021-02-14T09:15:12Z"
+ },
+ "151": {
+  "spoken_id": "1000508054743",
+  "title": "Strategie per il Futuro: #1 Apri il Tuo Business Online",
+  "date": "2021-02-07T09:15:14Z"
+ },
+ "149": {
+  "spoken_id": "1000506363026",
+  "title": "La Storia di Marco Ronco aka Ryuichi Sakuma: Metaline e PosizionamentoMotoridiRicerca",
+  "date": "2021-01-24T09:15:13Z"
+ },
+ "148": {
+  "spoken_id": "1000505488221",
+  "title": "La Storia di Giulio Gaudiano: StrategiaDigitale",
+  "date": "2021-01-17T09:15:10Z"
+ },
+ "147": {
+  "spoken_id": "1000504860708",
+  "title": "La Storia di Raffaele Gaito: GrowthProgram.it",
+  "date": "2021-01-10T09:15:08Z"
+ },
+ "146": {
+  "spoken_id": "1000504184698",
+  "title": "La Storia di Carlo Gatto: VivereaMalta.com",
+  "date": "2021-01-03T09:15:22Z"
+ },
+ "145": {
+  "spoken_id": "1000503597426",
+  "title": "La Storia di Damiano Marinelli: Farmamico",
+  "date": "2020-12-27T09:15:13Z"
+ },
+ "144": {
+  "spoken_id": "1000502977987",
+  "title": "La Storia di Alberto Mattei: NomadiDigitali",
+  "date": "2020-12-20T09:15:21Z"
+ },
+ "143": {
+  "spoken_id": "1000502222691",
+  "title": "La Storia di Gino Repetto: Occhiali per Computer NoWave",
+  "date": "2020-12-13T09:15:01Z"
+ },
+ "142": {
+  "spoken_id": "1000501486099",
+  "title": "La Storia di Caterina Mezzapelle: ArtedelRicamo",
+  "date": "2020-12-06T09:15:20Z"
+ },
+ "141": {
+  "spoken_id": "1000500664010",
+  "title": "La Storia di Corrado Bertonazzi: SuonarelaBatteria.it",
+  "date": "2020-11-29T09:15:03Z"
+ },
+ "140": {
+  "spoken_id": "1000499787220",
+  "title": "Esempi Italiani di Collezioni Curate di Risorse",
+  "date": "2020-11-22T11:15:04Z"
+ },
+ "139": {
+  "spoken_id": "1000498668838",
+  "title": "Principi per Disegnare il Tuo Prossimo Sito Web",
+  "date": "2020-11-15T11:15:21Z"
+ },
+ "138": {
+  "spoken_id": "1000497736597",
+  "title": "Come Scrivere Online: 4 Principi Base",
+  "date": "2020-11-08T11:15:13Z"
+ },
+ "137": {
+  "spoken_id": "1000497735914",
+  "title": "Come Formattare i Post su Facebook",
+  "date": "2020-11-01T11:15:10Z"
+ },
+ "136": {
+  "spoken_id": "1000497736614",
+  "title": "Che Struttura Usare per i Contenuti su Facebook",
+  "date": "2020-10-25T11:15:12Z"
+ },
+ "135": {
+  "spoken_id": "1000497736576",
+  "title": "Come le Persone Leggono Online",
+  "date": "2020-10-18T10:15:13Z"
+ },
+ "134": {
+  "spoken_id": "1000497736467",
+  "title": "Feed RSS: Cosa Sono e a Cosa Servono",
+  "date": "2020-10-11T10:15:16Z"
+ },
+ "133": {
+  "spoken_id": "1000497736556",
+  "title": "Tendenze e Consigli Strategici per Chi Pubblica Online - P2",
+  "date": "2020-10-04T19:20:24Z"
+ },
+ "132": {
+  "spoken_id": "1000497735912",
+  "title": "Tendenze e Consigli Strategici per Chi Pubblica Online - P1",
+  "date": "2020-09-27T10:15:20Z"
+ },
+ "131": {
+  "spoken_id": "1000497736466",
+  "title": "Come Ottenere Recensioni e Testimonianze",
+  "date": "2020-09-20T11:20:28Z"
+ },
+ "130": {
+  "spoken_id": "1000497736610",
+  "title": "L'ostacolo più grande: Avere costanza",
+  "date": "2020-09-13T10:15:11Z"
+ },
+ "129": {
+  "spoken_id": "1000497736480",
+  "title": "Come diventare il punto di riferimento nella tua nicchia di mercato",
+  "date": "2020-09-06T10:15:14Z"
+ },
+ "128": {
+  "spoken_id": "1000497736565",
+  "title": "Prezzi SI, prezzi NO",
+  "date": "2020-08-31T07:00:12Z"
+ },
+ "126": {
+  "spoken_id": "1000497736523",
+  "title": "Copiare SI, copiare-NO",
+  "date": "2020-08-16T10:15:18Z"
+ },
+ "125": {
+  "spoken_id": "1000497736586",
+  "title": "Condividere o tenere nascosto?",
+  "date": "2020-08-06T10:15:14Z"
+ },
+ "124": {
+  "spoken_id": "1000497736568",
+  "title": "Business strategy in tempi di crisi economica",
+  "date": "2020-08-02T10:15:01Z"
+ },
+ "123": {
+  "spoken_id": "1000497736477",
+  "title": "Come fare un podcast che domina la sua nicchia di mercato",
+  "date": "2020-07-26T10:15:12Z"
+ },
+ "122": {
+  "spoken_id": "1000497736544",
+  "title": "Come monetizzare un podcast",
+  "date": "2020-07-19T10:15:15Z"
+ },
+ "121": {
+  "spoken_id": "1000497736534",
+  "title": "Puoi essere un buon podcaster?",
+  "date": "2020-07-12T10:15:11Z"
+ },
+ "120": {
+  "spoken_id": "1000497736471",
+  "title": "Come trascrivere automaticamente un podcast (gratis)",
+  "date": "2020-07-05T10:15:16Z"
+ },
+ "119": {
+  "spoken_id": "1000497735911",
+  "title": "Futuro del podcasting (Trends)",
+  "date": "2020-06-28T10:15:14Z"
+ },
+ "118": {
+  "spoken_id": "1000497736484",
+  "title": "Podcasting: Come fare una buona intervista",
+  "date": "2020-06-21T10:15:02Z"
+ },
+ "117": {
+  "spoken_id": "1000497735909",
+  "title": "Podcasting: Strategie di marketing per chi inizia",
+  "date": "2020-06-14T10:00:12Z"
+ },
+ "116": {
+  "spoken_id": "1000497736465",
+  "title": "Podcasting: Tool & Strumenti II",
+  "date": "2020-06-07T10:00:13Z"
+ },
+ "115": {
+  "spoken_id": "1000497736457",
+  "title": "Podcasting: Tool & Strumenti",
+  "date": "2020-05-31T10:00:15Z"
+ },
+ "114": {
+  "spoken_id": "1000497736570",
+  "title": "Podcasting: Strategia editoriale",
+  "date": "2020-05-24T10:00:16Z"
+ },
+ "113": {
+  "spoken_id": "1000497736541",
+  "title": "Podcasting: Consigli generali",
+  "date": "2020-05-17T10:00:13Z"
+ },
+ "112": {
+  "spoken_id": "1000497736483",
+  "title": "Podcasting: Quanto è difficile?",
+  "date": "2020-05-10T10:00:16Z"
+ },
+ "110": {
+  "spoken_id": "1000497736569",
+  "title": "Customer Service: Tempi di risposta",
+  "date": "2020-04-26T10:00:19Z"
+ },
+ "108": {
+  "spoken_id": "1000497736464",
+  "title": "Come attivare una comunità online",
+  "date": "2020-04-12T10:00:13Z"
+ },
+ "106": {
+  "spoken_id": "1000497736617",
+  "title": "Contenuti che Spaccano: Podcast e Altri Format",
+  "date": "2020-03-29T09:59:04Z"
+ },
+ "105": {
+  "spoken_id": "1000497736531",
+  "title": "Contenuti che Spaccano: Calendari di Settore",
+  "date": "2020-03-22T11:00:14Z"
+ },
+ "103": {
+  "spoken_id": "1000497736545",
+  "title": "Contenuti che Spaccano: Newsradar",
+  "date": "2020-03-08T11:00:02Z"
+ },
+ "101": {
+  "spoken_id": "1000497736616",
+  "title": "Contenuti che Spaccano: Toolkit",
+  "date": "2020-02-23T09:10:04Z"
+ },
+ "99": {
+  "spoken_id": "1000497736589",
+  "title": "Contenuti che Spaccano: Libri e Film",
+  "date": "2020-02-09T09:10:14Z"
+ },
+ "98": {
+  "spoken_id": "1000497736615",
+  "title": "Contenuti che Spaccano: Directory di Settore",
+  "date": "2020-02-02T09:10:08Z"
+ },
+ "96": {
+  "spoken_id": "1000497736549",
+  "title": "Strategia Editoriale: Profondità non Ampiezza",
+  "date": "2020-01-19T09:10:14Z"
+ },
+ "94": {
+  "spoken_id": "1000497736600",
+  "title": "Storie di Friends: Yuool",
+  "date": "2020-01-05T09:10:11Z"
+ },
+ "93": {
+  "spoken_id": "1000497736472",
+  "title": "Storytelling",
+  "date": "2019-12-29T09:10:21Z"
+ },
+ "92": {
+  "spoken_id": "1000497736554",
+  "title": "Come Scegliere Immagini d'Impatto",
+  "date": "2019-12-22T09:00:12Z"
+ },
+ "91": {
+  "spoken_id": "1000497736474",
+  "title": "Come Trovare le Immagini",
+  "date": "2019-12-15T09:00:12Z"
+ },
+ "90": {
+  "spoken_id": "1000497736547",
+  "title": "Brand Personality",
+  "date": "2019-12-08T09:00:07Z"
+ },
+ "89": {
+  "spoken_id": "1000497736476",
+  "title": "Come Organizzare i Contenuti",
+  "date": "2019-12-01T09:00:06Z"
+ },
+ "88": {
+  "spoken_id": "1000497735915",
+  "title": "Piano dei Contenuti - III",
+  "date": "2019-11-24T11:00:10Z"
+ },
+ "87": {
+  "spoken_id": "1000497736587",
+  "title": "Piano dei Contenuti - II",
+  "date": "2019-11-17T11:00:04Z"
+ },
+ "86": {
+  "spoken_id": "1000497736602",
+  "title": "Piano dei Contenuti - I",
+  "date": "2019-11-10T11:00:04Z"
+ },
+ "85": {
+  "spoken_id": "1000497736598",
+  "title": "Iniziare con un Mini-Sito di Una Pagina",
+  "date": "2019-11-03T11:00:21Z"
+ },
+ "84": {
+  "spoken_id": "1000497736575",
+  "title": "Patreon",
+  "date": "2019-10-27T11:00:18Z"
+ },
+ "83": {
+  "spoken_id": "1000497736593",
+  "title": "Brainstorming II Tecniche",
+  "date": "2019-10-20T10:00:04Z"
+ },
+ "82": {
+  "spoken_id": "1000497736553",
+  "title": "Brainstorming I",
+  "date": "2019-10-13T10:00:11Z"
+ },
+ "81": {
+  "spoken_id": "1000497736573",
+  "title": "Amazon Alexa e i Podcast: Francesco Tassi",
+  "date": "2019-10-06T10:00:11Z"
+ },
+ "80": {
+  "spoken_id": "1000497736524",
+  "title": "Come Scrivere Meglio",
+  "date": "2019-09-29T10:00:11Z"
+ },
+ "79": {
+  "spoken_id": "1000497736579",
+  "title": "Dai Prima di Chiedere: La Storia di Cristopher",
+  "date": "2019-09-22T10:00:09Z"
+ },
+ "78": {
+  "spoken_id": "1000497736601",
+  "title": "Logo: Come Farlo Bene",
+  "date": "2019-09-15T10:00:14Z"
+ },
+ "77": {
+  "spoken_id": "1000497736583",
+  "title": "Brand Logo Design",
+  "date": "2019-09-08T10:00:06Z"
+ },
+ "76": {
+  "spoken_id": "1000497736563",
+  "title": "Posizionamento: Definire Chi Sei e Cosa Fai",
+  "date": "2019-09-01T10:00:05Z"
+ },
+ "75": {
+  "spoken_id": "1000497736542",
+  "title": "Posizionamento: Nome Brand, Slogan / Tagline, USP / UVP",
+  "date": "2019-08-25T10:00:16Z"
+ },
+ "74": {
+  "spoken_id": "1000497736468",
+  "title": "Posizionamento: Analisi Frasi-Chiave e Concorrenza",
+  "date": "2019-08-18T10:00:05Z"
+ },
+ "73": {
+  "spoken_id": "1000497736613",
+  "title": "Partire col Piede Giusto: PIE e Tribù",
+  "date": "2019-08-11T10:00:19Z"
+ },
+ "72": {
+  "spoken_id": "1000497736543",
+  "title": "La Miglior Cura è: Ispirare",
+  "date": "2019-08-04T10:00:12Z"
+ },
+ "71": {
+  "spoken_id": "1000497736533",
+  "title": "Auto-analisi: il Valore di  \"Sbucciarsi\"",
+  "date": "2019-07-28T10:00:15Z"
+ },
+ "70": {
+  "spoken_id": "1000497736532",
+  "title": "Diventare Punti di Riferimento: Il DJ delle notizie",
+  "date": "2019-07-21T10:00:13Z"
+ },
+ "69": {
+  "spoken_id": "1000497736564",
+  "title": "Brand vs. Friend: Come Riconoscerli",
+  "date": "2019-07-14T10:00:18Z"
+ },
+ "68": {
+  "spoken_id": "1000497736577",
+  "title": "Protesi o Sintesi?",
+  "date": "2019-07-07T10:15:09Z"
+ },
+ "67": {
+  "spoken_id": "1000497736463",
+  "title": "Trattare i Clienti Come Re",
+  "date": "2019-06-30T12:05:20Z"
+ },
+ "66": {
+  "spoken_id": "1000497736522",
+  "title": "Comunicazione Asincrona",
+  "date": "2019-06-23T12:15:12Z"
+ },
+ "65": {
+  "spoken_id": "1000497736596",
+  "title": "Come Fare Meglio le Interviste",
+  "date": "2019-06-16T08:30:03Z"
+ },
+ "63": {
+  "spoken_id": "1000497736485",
+  "title": "Blog o Sito Web?",
+  "date": "2019-06-05T09:35:53Z"
+ },
+ "62": {
+  "spoken_id": "1000497736562",
+  "title": "Web Marketing come gli Integratori",
+  "date": "2019-05-24T06:48:32Z"
+ },
+ "61": {
+  "spoken_id": "1000497736607",
+  "title": "Contenuti",
+  "date": "2019-05-08T07:44:52Z"
+ },
+ "59": {
+  "spoken_id": "1000497736535",
+  "title": "Fare Preventivi: Più \"Friend\" meno \"Brand\"",
+  "date": "2019-04-23T17:31:11Z"
+ },
+ "58": {
+  "spoken_id": "1000497736528",
+  "title": "Cosa Faccio: Caratterizzare un'Azienda - USP",
+  "date": "2019-04-15T12:29:32Z"
+ },
+ "57": {
+  "spoken_id": "1000497736520",
+  "title": "Approfondimento: Chi Sono, Cosa Faccio, Perché lo Faccio",
+  "date": "2019-04-07T17:01:27Z"
+ },
+ "56": {
+  "spoken_id": "1000497736590",
+  "title": "Riflessioni: Chi sono - Cosa faccio",
+  "date": "2019-04-01T21:27:28Z"
+ },
+ "54": {
+  "spoken_id": "1000497736526",
+  "title": "Cosa Postare sui Social: Autopromozione (5/5)",
+  "date": "2019-03-17T11:00:19Z"
+ },
+ "53": {
+  "spoken_id": "1000497736571",
+  "title": "Cosa Postare sui Social: Dialogo - Empatia (4/5)",
+  "date": "2019-03-10T11:02:43Z"
+ },
+ "52": {
+  "spoken_id": "1000497736540",
+  "title": "Cosa Postare sui Social: Ispirazione (3/5)",
+  "date": "2019-03-03T10:55:10Z"
+ },
+ "51": {
+  "spoken_id": "1000497736609",
+  "title": "#51 Cosa Postare sui Social: Informazione (2/5)",
+  "date": "2019-02-24T11:00:16Z"
+ },
+ "50": {
+  "spoken_id": "1000497736525",
+  "title": "#50 Cosa Postare sui Social: Intrattenimento (1/5)",
+  "date": "2019-02-17T11:00:11Z"
+ },
+ "46": {
+  "spoken_id": "1000497736604",
+  "title": "#46 Bandiere Sociali: Identikit",
+  "date": "2019-01-20T11:43:03Z"
+ },
+ "45": {
+  "spoken_id": "1000497736519",
+  "title": "#45 Tre Domande Prima di Lanciarsi",
+  "date": "2019-01-13T10:53:43Z"
+ },
+ "44": {
+  "spoken_id": "1000497736518",
+  "title": "#44 Strategia per Contenuti di Valore",
+  "date": "2019-01-07T09:49:31Z"
+ },
+ "42": {
+  "spoken_id": "1000497736473",
+  "title": "#42 Sito Web: Quali Priorità",
+  "date": "2018-12-24T06:05:13Z"
+ },
+ "39": {
+  "spoken_id": "1000497736584",
+  "title": "#39 Crowdpartnering",
+  "date": "2018-11-05T14:09:21Z"
+ },
+ "38": {
+  "spoken_id": "1000497736546",
+  "title": "#38 Uscire dallo schermo - p2 logistica",
+  "date": "2018-10-29T10:20:05Z"
+ },
+ "37": {
+  "spoken_id": "1000497736595",
+  "title": "#37 Uscire dallo schermo",
+  "date": "2018-10-23T03:16:39Z"
+ },
+ "36": {
+  "spoken_id": "1000497736481",
+  "title": "#36 Avviare un podcast da zero",
+  "date": "2018-10-05T09:19:13Z"
+ },
+ "35": {
+  "spoken_id": "1000497736561",
+  "title": "#35 Far decollare pagina FB da zero",
+  "date": "2018-09-27T07:33:01Z"
+ },
+ "34": {
+  "spoken_id": "1000497736469",
+  "title": "#34 La piramide rovesciata",
+  "date": "2018-09-18T09:35:38Z"
+ },
+ "33": {
+  "spoken_id": "1000497736618",
+  "title": "#33 Il tuo logo su Facebook",
+  "date": "2018-09-10T11:29:36Z"
+ },
+ "32": {
+  "spoken_id": "1000497736567",
+  "title": "#32 Content marketing di spessore",
+  "date": "2018-09-03T06:30:05Z"
+ },
+ "31": {
+  "spoken_id": "1000497736592",
+  "title": "#31 Strategia per Facebook",
+  "date": "2018-08-27T21:00:44Z"
+ },
+ "30": {
+  "spoken_id": "1000497736580",
+  "title": "#30 Fuga da Facebook",
+  "date": "2018-08-20T20:08:59Z"
+ },
+ "28": {
+  "spoken_id": "1000497736527",
+  "title": "#28 Bello o autentico?",
+  "date": "2018-08-06T07:25:16Z"
+ },
+ "27": {
+  "spoken_id": "1000497736482",
+  "title": "#27 Delegare i social a terzi",
+  "date": "2018-07-29T17:59:06Z"
+ },
+ "26": {
+  "spoken_id": "1000497736460",
+  "title": "#26 Come prepararsi per un video",
+  "date": "2018-07-23T06:51:47Z"
+ },
+ "25": {
+  "spoken_id": "1000497735913",
+  "title": "#25 Come trovare rapidamente nuovi clienti",
+  "date": "2018-07-17T19:13:46Z"
+ },
+ "24": {
+  "spoken_id": "1000497736559",
+  "title": "#24 Condividere tutto, vende",
+  "date": "2018-07-09T22:48:28Z"
+ },
+ "23": {
+  "spoken_id": "1000497736572",
+  "title": "#23 Social o sito? Dove far leggere i tuoi contenuti",
+  "date": "2018-07-03T01:12:26Z"
+ },
+ "22": {
+  "spoken_id": "1000497736475",
+  "title": "#22 Come comunicare per creare relazioni",
+  "date": "2018-06-26T08:21:46Z"
+ },
+ "21": {
+  "spoken_id": "1000497736599",
+  "title": "#21 Come iniziare qualsiasi testo: Ciccia subito",
+  "date": "2018-06-20T07:18:53Z"
+ },
+ "20": {
+  "spoken_id": "1000497736517",
+  "title": "#20 Venditori di fuffa: Come evitare di apparire tali",
+  "date": "2018-06-14T09:37:07Z"
+ },
+ "19": {
+  "spoken_id": "1000497736537",
+  "title": "#19 Come scendere dal *piedistallo*",
+  "date": "2018-06-08T16:10:51Z"
+ },
+ "18": {
+  "spoken_id": "1000497736555",
+  "title": "#18 Quando ti dicono \"non-c'è problema\" stai certo che...",
+  "date": "2018-05-31T17:30:45Z"
+ },
+ "17": {
+  "spoken_id": "1000497736566",
+  "title": "#17 Come creare promozioni grafiche che funzionano su Facebook",
+  "date": "2018-05-27T08:26:23Z"
+ },
+ "15": {
+  "spoken_id": "1000497736612",
+  "title": "#15 Il marchio di qualità: le domande che fai",
+  "date": "2018-05-18T11:41:24Z"
+ },
+ "14": {
+  "spoken_id": "1000497736611",
+  "title": "#14 Info a chiocciola: indirizzi mail quando si fa business online",
+  "date": "2018-04-06T06:29:21Z"
+ },
+ "13": {
+  "spoken_id": "1000497736461",
+  "title": "#13 L'errore che fanno tutti coloro che iniziano",
+  "date": "2018-04-01T11:11:50Z"
+ },
+ "12": {
+  "spoken_id": "1000497736582",
+  "title": "#12 Marketing one-to-one: Eventi-dal-basso",
+  "date": "2018-03-28T11:09:29Z"
+ },
+ "11": {
+  "spoken_id": "1000497736581",
+  "title": "#11 La differenza è tutta nei dettagli",
+  "date": "2018-03-26T07:45:04Z"
+ },
+ "10": {
+  "spoken_id": "1000497736548",
+  "title": "#10 Scrivi come magni",
+  "date": "2018-03-20T17:19:47Z"
+ },
+ "9": {
+  "spoken_id": "1000497736478",
+  "title": "#9 Come ti ho trovato, perché ti ho scelto",
+  "date": "2018-03-16T09:01:15Z"
+ },
+ "8": {
+  "spoken_id": "1000497736588",
+  "title": "#8 Come aumentare la tua autorevolezza dando più spessore ai contenuti",
+  "date": "2018-03-13T12:22:31Z"
+ },
+ "7": {
+  "spoken_id": "1000497736462",
+  "title": "#7 L'importanza della reputazione online",
+  "date": "2018-03-11T16:22:42Z"
+ },
+ "6": {
+  "spoken_id": "1000497736605",
+  "title": "#6 Come catturare l'attenzione dei tuoi lettori su Facebook",
+  "date": "2018-03-08T16:42:23Z"
+ },
+ "4": {
+  "spoken_id": "1000497736578",
+  "title": "#4 Wordpress Si, Wordpress No",
+  "date": "2018-03-02T17:11:32Z"
+ },
+ "3": {
+  "spoken_id": "1000497736551",
+  "title": "#3 Facebook - Come promuovere un evento",
+  "date": "2018-03-01T15:30:42Z"
+ },
+ "2": {
+  "spoken_id": "1000497736608",
+  "title": "#2 Facebook cambio di algoritmo: soluzioni",
+  "date": "2018-02-27T13:23:58Z"
+ },
+ "1": {
+  "spoken_id": "1000497736529",
+  "title": "#1 Introduzione: Perché e per chi è",
+  "date": "2018-02-26T19:02:23Z"
+ }
+}
