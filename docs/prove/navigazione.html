@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prove di navigazione · da Brand a Friend</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#faf8f4;--ink:#1d1b18;--muted:#6d665c;--line:#e4ded3;--accent:#b4410b;--soft:#f3efe7;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}
+.picker{position:sticky;top:0;z-index:5;background:#1d1b18;color:#fff;padding:10px 14px;display:flex;gap:8px;align-items:center;overflow-x:auto}
+.picker b{white-space:nowrap;margin-right:6px;font-size:13px;opacity:.8}
+.picker button{background:#3a3631;border:0;border-radius:8px;padding:7px 11px;white-space:nowrap;font-size:13px}
+.picker button[aria-pressed=true]{background:#fff;color:#1d1b18;font-weight:700}
+.intro{max-width:1100px;margin:0 auto;padding:18px 16px 4px}
+.intro h1{font-size:22px;margin:0 0 4px}.intro p{margin:0;color:var(--muted)}
+.wrap{max-width:1100px;margin:0 auto;padding:10px 16px 60px}
+.lbl{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:700;margin:0 0 8px}
+.search{width:100%;padding:12px 14px;font-size:16px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.n{color:var(--muted);font-size:12px;margin-left:4px;font-weight:400}
+.res-head{display:flex;justify-content:space-between;align-items:baseline;margin:22px 0 10px;border-top:1px solid var(--line);padding-top:14px}
+.res-head h2{font-size:18px;margin:0}.res-head small{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.ep{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;text-decoration:none;color:inherit}
+.ep img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#eee}
+.ep div{padding:8px 10px;font-size:13px;font-weight:600;line-height:1.3}.ep span{display:block;color:var(--muted);font-weight:400;font-size:11px}
+.sel{background:var(--ink)!important;color:#fff!important;border-color:var(--ink)!important}
+.sel .n{color:#ccc}
+.desc{color:var(--muted);font-style:italic;margin:4px 0 0;font-size:14px}
+/* 1 */
+.seg{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.seg button{border:0;border-right:1px solid var(--line);background:#fff;padding:12px 6px;text-align:center}
+.seg button:last-child{border-right:0}.seg button small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
+.seg button.sel small{color:#ddd}
+.cols{columns:3 220px;column-gap:24px;margin-top:14px}
+.cols button{display:block;width:100%;text-align:left;border:0;background:none;padding:7px 8px;border-radius:6px;break-inside:avoid}
+.cols button:hover{background:var(--soft)}
+/* 2 */
+.side{display:grid;grid-template-columns:270px 1fr;gap:24px}
+@media(max-width:760px){.side{grid-template-columns:1fr}}
+.acc details{border-bottom:1px solid var(--line)}.acc summary{padding:12px 4px;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+.acc summary::after{content:"+";color:var(--muted)}.acc details[open] summary::after{content:"–"}
+.acc button{display:block;width:100%;text-align:left;border:0;background:none;padding:6px 10px;border-radius:6px;font-size:14px}
+.acc button:hover{background:var(--soft)}
+/* 3 */
+.kanban{display:grid;grid-template-columns:repeat(4,minmax(220px,1fr));gap:12px;overflow-x:auto;padding-bottom:6px}
+.kcol{background:var(--soft);border-radius:12px;padding:12px;max-height:440px;overflow:auto}
+.kcol h3{margin:0 0 2px;font-size:15px}.kcol p{margin:0 0 10px;color:var(--muted);font-size:12px}
+.kcol button{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:6px;font-size:13px}
+/* 4 */
+.q{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.q button{text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.q button b{display:block;font-size:17px;margin-bottom:4px}.q button span{color:var(--muted);font-size:13px}
+.q button.sel span{color:#ddd}
+.list2{columns:2 260px;margin-top:14px}
+.list2 button{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:none;padding:9px 4px;break-inside:avoid}
+/* 5 */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px;text-align:left}
+.tile .th{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:8px}
+.tile .th img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px}
+.tile b{font-size:14px}
+.tabs{display:flex;gap:4px;border-bottom:2px solid var(--line)}
+.tabs button{border:0;background:none;padding:10px 14px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--accent)}
+/* 6 */
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:20px}
+.toc h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:0 0 6px;border-bottom:2px solid var(--accent);padding-bottom:4px}
+.toc ol{margin:0;padding-left:20px}.toc li{padding:3px 0}.toc li button{border:0;background:none;padding:0;text-align:left}
+.toc li button:hover{text-decoration:underline}
+.hero{text-align:center;padding:20px 0}.hero .search{max-width:620px;font-size:18px;padding:16px 18px;border-radius:14px}
+/* 7 */
+.tl{display:flex;gap:0;position:relative;margin:10px 0 0;overflow-x:auto}
+.tl button{flex:1;min-width:150px;border:0;background:none;padding:28px 8px 8px;text-align:center;position:relative;font-size:13px}
+.tl button::before{content:"";position:absolute;top:10px;left:50%;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--accent);transform:translateX(-50%)}
+.tl button::after{content:"";position:absolute;top:16px;left:0;right:0;height:3px;background:var(--line);z-index:-1}
+.tl button.sel{background:none!important;color:var(--accent)!important;font-weight:700}
+.tl button.sel::before{background:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chips button{border:1px solid var(--line);background:#fff;border-radius:99px;padding:6px 11px;font-size:13px}
+/* 8 */
+.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:8px}
+@media(max-width:760px){.filters{grid-template-columns:1fr 1fr}.filters .search{grid-column:1/-1}}
+.filters select{padding:11px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px;width:100%}
+.filters label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;display:block;margin-bottom:3px}
+.note{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:10px 12px;font-size:13px;margin:0 0 16px}
+</style></head><body>
+<div class="picker" id="picker"><b>Opzione:</b></div>
+<div class="intro"><h1 id="otitle"></h1><p id="odesc"></p></div>
+<div class="wrap"><div id="nav"></div><div id="res"></div></div>
+<script>
+let D, st={v:"tema",g:"",q:"",f:{}};
+const OPTS=[
+ ["1 · Quattro bottoni + colonne","In alto, quattro bottoni grandi con un sottotitolo che spiega a cosa servono. Sotto, i gruppi della vista scelta in colonne da leggere dall'alto in basso.",o1],
+ ["2 · Menu laterale a fisarmonica","A sinistra, la ricerca e i quattro modi di sfogliare uno sotto l'altro: tocchi un titolo e si apre la sua lista. Sul telefono il menu sta sopra i risultati.",o2],
+ ["3 · Quattro colonne (Kanban)","I quattro modi di sfogliare tutti visibili insieme, ognuno nella sua colonna. Niente da aprire: vedi subito tutte le strade.",o3],
+ ["4 · Domande guida","Quattro schede con una domanda che chi arriva si fa davvero. Tocchi quella giusta e appare la lista di gruppi in due colonne.",o4],
+ ["5 · Tessere con copertine","Schede in alto per i quattro modi. Ogni gruppo è una tessera con tre copertine delle sue puntate: si capisce a colpo d'occhio di cosa si tratta.",o5],
+ ["6 · Indice da libro","La ricerca grande al centro. Sotto, un indice come quello di un libro: quattro capitoli con le liste numerate dei gruppi.",o6],
+ ["7 · Linea del tempo + temi","Le cinque epoche su una linea del tempo, e sotto i temi come filtri. Si possono combinare: un'epoca e un tema insieme.",o7],
+ ["8 · Filtri combinabili","Una sola riga compatta: ricerca e quattro menu a tendina che si sommano. Per chi sa già cosa cerca.",o8],
+];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm=s=>(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+const V=id=>D.views.find(v=>v.id===id);
+const cnt=(v,g)=>D.eps.filter(e=>(e.g[v]||[]).includes(g)).length;
+const SUB={tema:"di cosa parla",percorso:"a che punto sei",serie:"le mini-serie",epoca:"gli anni del podcast"};
+const img=e=>e.i.startsWith("covers/")?"../"+e.i:e.i;
+function results(list,title,desc){
+  $("res").innerHTML=`<div class="res-head"><h2>${esc(title||"Tutte le puntate")}</h2><small>${list.length} puntate</small></div>${desc?`<p class="desc">${esc(desc)}</p>`:""}
+  <div class="grid">${list.slice(0,24).map(e=>`<a class="ep" href="../${e.u}"><img src="${esc(img(e))}" loading="lazy" alt=""><div><span>#${e.n}</span>${esc(e.t)}</div></a>`).join("")}</div>${list.length>24?`<p class="desc">…e altre ${list.length-24} (nella prova ne mostro solo 24)</p>`:""}`;
+}
+function filtered(){const t=norm(st.q);return D.eps.filter(e=>(!st.g||(e.g[st.v]||[]).includes(st.g))&&(!t||norm(e.t+" "+e.s+" #"+e.n).includes(t)))}
+function showSel(){const v=V(st.v),g=v.groups.find(x=>x.id===st.g);results(filtered(),g?g.n:(st.q?`Ricerca: “${st.q}”`:""),g&&st.v!=="serie"?g.d:"")}
+const searchBox=(cls="search")=>`<input class="${cls}" id="q" type="search" placeholder="Cerca per titolo, parola, numero…" value="${esc(st.q)}">`;
+function bindSearch(){const q=$("q");if(q)q.oninput=()=>{st.q=q.value;showSel()}}
+function groupBtns(vid,wrap="button"){return V(vid).groups.map(g=>`<button data-v="${vid}" data-g="${g.id}" class="${st.v===vid&&st.g===g.id?"sel":""}">${esc(g.n)}<span class="n">${cnt(vid,g.id)}</span></button>`).join("")}
+function bindGroups(rerender){document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{st.v=b.dataset.v;st.g=st.g===b.dataset.g&&st.v===b.dataset.v?"":b.dataset.g;rerender()})}
+function o1(){$("nav").innerHTML=`${searchBox()}<p class="lbl" style="margin-top:16px">Come vuoi sfogliare?</p>
+ <div class="seg">${D.views.map(v=>`<button data-view="${v.id}" class="${st.v===v.id?"sel":""}">${esc(v.name.replace("Per ",""))}<small>${SUB[v.id]}</small></button>`).join("")}</div>
+ <div class="cols">${groupBtns(st.v)}</div>`;
+ document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{st.v=b.dataset.view;st.g="";o1()});bindGroups(o1);bindSearch();showSel()}
+function o2(){$("nav").innerHTML=`<div class="side"><div>${searchBox()}<div class="acc" style="margin-top:10px">${D.views.map(v=>`<details ${st.v===v.id?"open":""}><summary>${esc(v.name)} <span class="n">${SUB[v.id]}</span></summary>${groupBtns(v.id)}</details>`).join("")}</div></div><div id="res2"></div></div>`;
+ const r=$("res");$("res2").appendChild(r);bindGroups(o2);bindSearch();showSel()}
+function o3(){$("nav").innerHTML=`${searchBox()}<div class="kanban" style="margin-top:14px">${D.views.map(v=>`<div class="kcol"><h3>${esc(v.name)}</h3><p>${SUB[v.id]}</p>${groupBtns(v.id)}</div>`).join("")}</div>`;bindGroups(o3);bindSearch();showSel()}
+function o4(){const Q={tema:["Ho una domanda precisa","Scegli l'argomento: fiducia, curation, scrittura, IA…"],percorso:["Non so da dove partire","Scegli a che punto sei: inizio, farti trovare, farti scegliere…"],serie:["Voglio ascoltare una serie","Mini-serie da ascoltare dalla prima all'ultima puntata"],epoca:["Voglio vedere com'è cambiato","Otto anni di podcast in cinque capitoli"]};
+ $("nav").innerHTML=`${searchBox()}<p class="lbl" style="margin-top:16px">Cosa ti porta qui?</p><div class="q">${D.views.map(v=>`<button data-view="${v.id}" class="${st.v===v.id?"sel":""}"><b>${Q[v.id][0]}</b><span>${Q[v.id][1]}</span></button>`).join("")}</div><div class="list2">${groupBtns(st.v)}</div>`;
+ document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{st.v=b.dataset.view;st.g="";o4()});bindGroups(o4);bindSearch();showSel()}
+function o5(){const v=V(st.v);$("nav").innerHTML=`${searchBox()}<div class="tabs" style="margin-top:14px">${D.views.map(x=>`<button data-view="${x.id}" class="${st.v===x.id?"on":""}">${esc(x.name)}</button>`).join("")}</div>
+ <div class="tiles">${v.groups.map(g=>{const th=D.eps.filter(e=>(e.g[v.id]||[]).includes(g.id)).slice(0,3);return `<button class="tile ${st.g===g.id?"sel":""}" data-v="${v.id}" data-g="${g.id}"><div class="th">${th.map(e=>`<img src="${esc(img(e))}" alt="" loading="lazy">`).join("")}</div><b>${esc(g.n)}</b><span class="n">${cnt(v.id,g.id)}</span></button>`}).join("")}</div>`;
+ document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{st.v=b.dataset.view;st.g="";o5()});bindGroups(o5);bindSearch();showSel()}
+function o6(){$("nav").innerHTML=`<div class="hero">${searchBox()}</div><div class="toc">${D.views.map(v=>`<div><h3>${esc(v.name)}</h3><ol>${v.groups.map(g=>`<li><button data-v="${v.id}" data-g="${g.id}" class="${st.v===v.id&&st.g===g.id?"sel":""}">${esc(g.n)}<span class="n">${cnt(v.id,g.id)}</span></button></li>`).join("")}</ol></div>`).join("")}</div>`;bindGroups(o6);bindSearch();showSel()}
+function o7(){st.f.epoca=st.f.epoca||"";st.f.tema=st.f.tema||"";
+ $("nav").innerHTML=`${searchBox()}<p class="lbl" style="margin-top:16px">Gli anni del podcast</p><div class="tl">${V("epoca").groups.map(g=>`<button data-e="${g.id}" class="${st.f.epoca===g.id?"sel":""}">${esc(g.n.split(" · ")[0])}<br><span class="n">${esc(g.n.split(" · ")[1]||"")}</span></button>`).join("")}</div>
+ <p class="lbl" style="margin-top:14px">Di cosa parla</p><div class="chips">${V("tema").groups.map(g=>`<button data-t="${g.id}" class="${st.f.tema===g.id?"sel":""}">${esc(g.n)}</button>`).join("")}</div>`;
+ document.querySelectorAll("[data-e]").forEach(b=>b.onclick=()=>{st.f.epoca=st.f.epoca===b.dataset.e?"":b.dataset.e;o7()});
+ document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{st.f.tema=st.f.tema===b.dataset.t?"":b.dataset.t;o7()});
+ const q=$("q");const run=()=>{const t=norm(st.q);results(D.eps.filter(e=>(!st.f.epoca||e.g.epoca.includes(st.f.epoca))&&(!st.f.tema||e.g.tema.includes(st.f.tema))&&(!t||norm(e.t+" "+e.s).includes(t))),"Puntate trovate")};q.oninput=()=>{st.q=q.value;run()};run()}
+function o8(){$("nav").innerHTML=`<div class="filters"><div><label>Cerca</label>${searchBox()}</div>${D.views.map(v=>`<div><label>${esc(v.name)}</label><select data-fv="${v.id}"><option value="">Tutti</option>${v.groups.map(g=>`<option value="${g.id}" ${st.f[v.id]===g.id?"selected":""}>${esc(g.n)} (${cnt(v.id,g.id)})</option>`).join("")}</select></div>`).join("")}</div>`;
+ const run=()=>{const t=norm(st.q);results(D.eps.filter(e=>D.views.every(v=>!st.f[v.id]||e.g[v.id].includes(st.f[v.id]))&&(!t||norm(e.t+" "+e.s).includes(t))),"Puntate trovate")};
+ document.querySelectorAll("[data-fv]").forEach(s=>s.onchange=()=>{st.f[s.dataset.fv]=s.value;run()});$("q").oninput=e=>{st.q=e.target.value;run()};run()}
+function pick(i){st={v:"tema",g:"",q:"",f:{}};$("res").remove&&0;const r=document.getElementById("res");document.querySelector(".wrap").appendChild(r);
+ document.querySelectorAll(".picker button").forEach((b,j)=>b.setAttribute("aria-pressed",i===j));$("otitle").textContent=OPTS[i][0];$("odesc").textContent=OPTS[i][1];OPTS[i][2]();history.replaceState(null,"","#"+(i+1))}
+fetch("../data.json").then(r=>r.json()).then(d=>{D=d;$("picker").insertAdjacentHTML("beforeend",OPTS.map((o,i)=>`<button>${i+1}</button>`).join(""));
+ document.querySelectorAll(".picker button").forEach((b,i)=>b.onclick=()=>pick(i));pick(Math.max(0,Math.min(7,(parseInt(location.hash.slice(1))||1)-1)))});
+</script></body></html>

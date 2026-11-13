@@ -268,6 +268,7 @@ $("chips").onclick=ev=>{{const b=ev.target.closest(".chip");if(!b)return;grp=b.d
 q.oninput=render;$("nostory").onchange=render;$("oldfirst").onchange=render;
 chips();render();
 </script>"""
+    (DOCS / "data.json").write_text(data_js.replace("<\\/", "</"), encoding="utf-8")
     (DOCS / "index.html").write_text(page(cfg.get("title", "Archivio"), body, cfg.get("intro", ""),
                                           base_url + "/" if base_url else ""), encoding="utf-8")
     (DOCS / ".nojekyll").write_text("")
