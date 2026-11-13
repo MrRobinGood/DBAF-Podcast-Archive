@@ -1,0 +1,25 @@
+name: Provini copertine
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: archivio
+  cancel-in-progress: false
+jobs:
+  sheet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python3 tools/contact_sheet.py
+      - run: |
+          git config user.name "dbaf-bot"
+          git config user.email "dbaf-bot@users.noreply.github.com"
+          git add tmp-provini
+          git commit -m "Provini copertine (temporanei)"
+          git pull --rebase
+          git push
