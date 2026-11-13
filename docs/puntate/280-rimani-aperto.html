@@ -14,7 +14,9 @@ header.site p{max-width:720px;color:var(--muted);margin:0 0 6px}
 .start{margin:8px 0 26px}.start h2{font:700 15px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:0 0 10px}
 .row{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
 .row .card{min-width:200px;max-width:200px;scroll-snap-align:start}.row .card p{display:none}
-.tools{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:2;border-bottom:1px solid var(--line)}
+.tools{background:var(--bg);padding:12px 0;z-index:2;border-bottom:1px solid var(--line)}
+@media(min-width:900px){.tools{position:sticky;top:0}}
+.tools select{font:600 14px system-ui,sans-serif;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:#fff;max-width:100%}
 .tools input{width:100%;padding:12px 14px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:10px;background:#fff}
 .views{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;align-items:center}
 .views span{font:13px system-ui,sans-serif;color:var(--muted);margin-right:4px}

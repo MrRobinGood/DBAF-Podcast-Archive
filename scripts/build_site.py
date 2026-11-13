@@ -90,7 +90,9 @@ header.site p{max-width:720px;color:var(--muted);margin:0 0 6px}
 .start{margin:8px 0 26px}.start h2{font:700 15px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin:0 0 10px}
 .row{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
 .row .card{min-width:200px;max-width:200px;scroll-snap-align:start}.row .card p{display:none}
-.tools{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:2;border-bottom:1px solid var(--line)}
+.tools{background:var(--bg);padding:12px 0;z-index:2;border-bottom:1px solid var(--line)}
+@media(min-width:900px){.tools{position:sticky;top:0}}
+.tools select{font:600 14px system-ui,sans-serif;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:#fff;max-width:100%}
 .tools input{width:100%;padding:12px 14px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:10px;background:#fff}
 .views{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;align-items:center}
 .views span{font:13px system-ui,sans-serif;color:var(--muted);margin-right:4px}
@@ -241,7 +243,10 @@ $("startrow").innerHTML=D.start.map(n=>byN[n]).filter(Boolean).map(card).join(""
 $("views").insertAdjacentHTML("beforeend",D.views.map(v=>`<button class="view" data-v="${{v.id}}">${{esc(v.name)}}</button>`).join(""));
 function chips(){{const v=D.views.find(x=>x.id===view)||D.views[0];
   const cnt=g=>D.eps.filter(e=>(e.g[v.id]||[]).includes(g)).length;
-  $("chips").innerHTML='<button class="chip" data-g="">Tutte</button>'+v.groups.map(g=>`<button class="chip" data-g="${{g.id}}">${{esc(g.n)}}<small>${{cnt(g.id)}}</small></button>`).join("");
+  $("chips").innerHTML=v.groups.length>12
+    ? `<select id="gsel" aria-label="Scegli"><option value="">Tutte le serie</option>${{v.groups.map(g=>`<option value="${{g.id}}"${{g.id===grp?" selected":""}}>${{esc(g.n)}} (${{cnt(g.id)}})</option>`).join("")}}</select>`
+    : '<button class="chip" data-g="">Tutte</button>'+v.groups.map(g=>`<button class="chip" data-g="${{g.id}}">${{esc(g.n)}}<small>${{cnt(g.id)}}</small></button>`).join("");
+  const sel=$("gsel"); if(sel) sel.onchange=()=>{{grp=sel.value;render()}};
   document.querySelectorAll(".view").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===view));}}
 function render(){{
   const t=norm(q.value), v=D.views.find(x=>x.id===view);
