@@ -9,7 +9,7 @@ on:
         description: "Massimo di trascrizioni spoken.md nuove in questo giro"
         default: "5"
       whisper_limit:
-        description: "Quante puntate senza testo trascrivere con Whisper"
+        description: "Quante puntate senza testo trascrivere con Whisper (0 = nessuna)"
         default: "2"
 
 permissions:
@@ -38,6 +38,7 @@ jobs:
           SPOKEN_API_KEY: ${{ secrets.SPOKEN_API_KEY }}
         run: python3 scripts/fetch_transcripts.py --max "${{ github.event.inputs.max_transcripts || '5' }}"
       - name: Trascrizioni mancanti con Whisper
+        if: ${{ (github.event.inputs.whisper_limit || '2') != '0' }}
         run: python3 scripts/transcribe_whisper.py --limit "${{ github.event.inputs.whisper_limit || '2' }}"
       - name: Costruisci il sito
         run: python3 scripts/build_site.py
