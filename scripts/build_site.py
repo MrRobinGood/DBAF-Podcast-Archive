@@ -148,6 +148,9 @@ footer{font:13px system-ui,sans-serif;color:var(--muted);text-align:center;paddi
 """
 
 
+ICONS = ""
+
+
 def page(title, body, desc="", canonical="", image=""):
     og = (f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">'
           + (f'<meta property="og:image" content="{esc(image)}">' if image else ""))
@@ -155,7 +158,7 @@ def page(title, body, desc="", canonical="", image=""):
 <html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
-<meta name="description" content="{esc(desc)}">{og}
+<meta name="description" content="{esc(desc)}">{og}{ICONS}
 {f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ''}
 <style>{CSS}</style></head><body>{body}</body></html>"""
 
@@ -166,6 +169,10 @@ def main():
     cats = load(DATA / "categories.json", {"views": [], "assign": {}, "start_here": []})
     sums = load(DATA / "summaries.json", {})
     base_url = cfg.get("base_url", "").rstrip("/")
+    global ICONS
+    ICONS = (f'<link rel="icon" href="{base_url}/favicon.svg" type="image/svg+xml">'
+             f'<link rel="icon" href="{base_url}/favicon.ico" sizes="any">'
+             f'<link rel="apple-touch-icon" href="{base_url}/apple-touch-icon.png">')
     views = cats.get("views", [])
     gname = {(v["id"], g["id"]): g["name"] for v in views for g in v["groups"]}
     by_num = {e["number"]: e for e in eps}
