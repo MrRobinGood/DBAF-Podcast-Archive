@@ -1,6 +1,6 @@
 name: Trascrivi arretrato con Whisper
 
-# Lancio a mano. Divide le puntate senza trascrizione su 20 computer in parallelo,
+# Lancio a mano. Divide le puntate senza trascrizione in 10 parti, al massimo 4 computer alla volta,
 # poi un ultimo passo raccoglie tutti i testi e li salva.
 on:
   workflow_dispatch:
@@ -18,8 +18,9 @@ jobs:
     timeout-minutes: 340
     strategy:
       fail-fast: false
+      max-parallel: 4
       matrix:
-        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+        shard: [0,1,2,3,4,5,6,7,8,9]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,7 +29,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.txt
       - run: pip install -r requirements.txt
-      - run: python3 scripts/transcribe_whisper.py --shard ${{ matrix.shard }} --shards 20 --out out
+      - run: python3 scripts/transcribe_whisper.py --shard ${{ matrix.shard }} --shards 10 --out out
       - uses: actions/upload-artifact@v4
         with:
           name: testi-${{ matrix.shard }}
