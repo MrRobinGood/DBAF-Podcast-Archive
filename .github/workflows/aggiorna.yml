@@ -52,3 +52,8 @@ jobs:
           git diff --cached --quiet || git commit -m "Aggiornamento archivio"
           git pull --rebase
           git push
+      - name: Copia su robingood.com/it/podcast/
+        env:
+          PAIR_SSH_KEY: ${{ secrets.PAIR_SSH_KEY }}
+          PAIR_KNOWN_HOSTS: ${{ secrets.PAIR_KNOWN_HOSTS }}
+        run: bash scripts/deploy_pair.sh

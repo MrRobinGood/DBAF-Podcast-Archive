@@ -81,6 +81,13 @@ def fmt_date(iso):
 
 
 CSS = """
+.sitebar{background:#fff;border-bottom:1px solid var(--line)}
+.sitebar .in{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;padding:14px 20px}
+.sitebar img{height:34px;width:auto;display:block}
+.sitebar nav{display:flex;flex-wrap:wrap;gap:6px 22px;font:500 15px 'Inter Tight',system-ui,sans-serif}
+.sitebar nav a{color:var(--ink);text-decoration:none;padding:6px 0}
+.sitebar nav a[aria-current]{color:var(--accent);border-bottom:2px solid var(--accent)}
+@media(max-width:640px){.sitebar .in{padding:10px 16px}.sitebar img{height:28px}.sitebar nav{gap:4px 16px;font-size:14px}}
 :root{--bg:#faf8f4;--ink:#1d1b18;--muted:#6d665c;--line:#e4ded3;--accent:#b4410b;--card:#fff;--soft:#f3efe7}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,'Iowan Old Style',serif}
 a{color:inherit}header.site{padding:44px 20px 18px;max-width:1180px;margin:0 auto}
@@ -151,6 +158,22 @@ footer{font:13px system-ui,sans-serif;color:var(--muted);text-align:center;paddi
 ICONS = ""
 
 
+MENU = [("Key Ideas", "https://robingood.com/key-ideas/"),
+        ("Interviews &amp; Presentations", "https://robingood.com/interviews-talks-presentations/"),
+        ("Tools", "https://robingood.com/tools/"),
+        ("Music", "https://robingood.com/music/"),
+        ("Podcast", "https://robingood.com/it/podcast/")]
+
+
+def sitebar(prefix=""):
+    """Barra del sito robingood.com (wordmark + menu), uguale a /music/."""
+    links = "".join(f'<a href="{u}" aria-current="page">{l}</a>' if l == "Podcast" else f'<a href="{u}">{l}</a>'
+                    for l, u in MENU)
+    return (f'<div class="sitebar"><div class="in"><a href="https://robingood.com/" aria-label="Robin Good homepage">'
+            f'<img src="{prefix}assets/wordmark.svg" alt="Robin Good" width="148" height="34"></a>'
+            f'<nav aria-label="Main navigation" lang="en">{links}</nav></div></div>')
+
+
 def page(title, body, desc="", canonical="", image=""):
     og = (f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">'
           + (f'<meta property="og:image" content="{esc(image)}">' if image else ""))
@@ -160,6 +183,8 @@ def page(title, body, desc="", canonical="", image=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">{og}{ICONS}
 {f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ''}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body>{body}</body></html>"""
 
 
@@ -214,7 +239,7 @@ def main():
         next_link = (f'<a href="{esc(next_e["slug"])}.html">#{next_e["number"]} {esc(next_e["title"])} →</a>'
                      if next_e else "")
         nav = f"<div class='nav'><span>{prev_link}</span><span>{next_link}</span></div>"
-        body = f"""<article>
+        body = sitebar("../") + f"""<article>
 <p class="meta"><a href="../index.html">← {esc(cfg.get('title', 'Archivio'))}</a></p>
 <p class="meta">Puntata #{esc(n)} · {fmt_date(e['date'])}{(' · ' + esc(e['duration'])) if e.get('duration') else ''}</p>
 <h1>{esc(e['title'])}</h1>
@@ -240,7 +265,7 @@ def main():
         "views": [{"id": v["id"], "name": v["name"], "groups": [{"id": g["id"], "n": g["name"], "d": g.get("description", "")} for g in v["groups"]]} for v in views],
         "start": cats.get("start_here", []),
     }, ensure_ascii=False).replace("</", "<\\/")
-    body = f"""<header class="site"><h1>{esc(cfg.get('title', 'Archivio'))}</h1>
+    body = sitebar() + f"""<header class="site"><h1>{esc(cfg.get('title', 'Archivio'))}</h1>
 <p>{esc(cfg.get('intro', ''))}</p>
 <input id="q" class="bigsearch" type="search" placeholder="Cerca per titolo, parola, numero…" aria-label="Cerca"></header>
 <div class="wrap">

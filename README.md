@@ -23,3 +23,11 @@ Sta nei "secrets" di GitHub con il nome `SPOKEN_API_KEY`
 
 Per ora si usano solo dietro le quinte (temi, ricerca, riassunti).
 Per mostrarle sul sito basta mettere `"show_transcripts": true` in `config.json`.
+
+## Copia su robingood.com
+
+La pagina vera dell'archivio è https://robingood.com/it/podcast/. Questa copia su GitHub resta come riserva e ha il tag canonical che punta a robingood.com.
+
+- `scripts/deploy_pair.sh` manda la cartella `docs/` su pair.com, in `public_html/robingood_com/it/podcast/`.
+- Lo lancia il job del lunedì (`aggiorna.yml`) dopo l'aggiornamento, e `robingood.yml` quando `docs/` cambia a mano.
+- Servono i secrets `PAIR_SSH_KEY` (chiave privata dedicata a GitHub) e, se vuoi, `PAIR_KNOWN_HOSTS`. Senza chiave la copia viene saltata e il resto del job funziona come prima.

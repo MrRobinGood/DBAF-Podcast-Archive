@@ -1,0 +1,26 @@
+name: Copia su robingood.com
+
+# Copia il sito (cartella docs/) su robingood.com/it/podcast/.
+# Parte da sola quando qualcuno cambia docs/ a mano. Il job del lunedi' fa la copia per conto suo.
+# Si puo' lanciare anche a mano da Actions > "Copia su robingood.com" > Run workflow.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["docs/**"]
+
+concurrency:
+  group: robingood-copy
+  cancel-in-progress: false
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copia su robingood.com/it/podcast/
+        env:
+          PAIR_SSH_KEY: ${{ secrets.PAIR_SSH_KEY }}
+          PAIR_KNOWN_HOSTS: ${{ secrets.PAIR_KNOWN_HOSTS }}
+        run: bash scripts/deploy_pair.sh
