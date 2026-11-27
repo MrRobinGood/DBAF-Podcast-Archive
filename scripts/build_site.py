@@ -71,6 +71,20 @@ def short(text, n=240):
     return cut.rsplit(" ", 1)[0] + "…"
 
 
+def fmt_dur(raw):
+    """Durata del feed (secondi, oppure MM:SS / HH:MM:SS) in parole: "16 min", "1 h 5 min"."""
+    raw = str(raw or "").strip()
+    try:
+        parts = [float(x) for x in raw.split(":")]
+    except ValueError:
+        return raw
+    secs = 0
+    for x in parts:
+        secs = secs * 60 + x
+    mins = max(1, round(secs / 60))
+    return f"{mins} min" if mins < 60 else f"{mins // 60} h {mins % 60} min" if mins % 60 else f"{mins // 60} h"
+
+
 def fmt_date(iso):
     mesi = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
     try:
@@ -241,7 +255,7 @@ def main():
         nav = f"<div class='nav'><span>{prev_link}</span><span>{next_link}</span></div>"
         body = sitebar("../") + f"""<article>
 <p class="meta"><a href="../index.html">← {esc(cfg.get('title', 'Archivio'))}</a></p>
-<p class="meta">Puntata #{esc(n)} · {fmt_date(e['date'])}{(' · ' + esc(e['duration'])) if e.get('duration') else ''}</p>
+<p class="meta">Puntata #{esc(n)} · {fmt_date(e['date'])}{(' · ' + esc(fmt_dur(e['duration']))) if e.get('duration') else ''}</p>
 <h1>{esc(e['title'])}</h1>
 <div class="tags">{tags}</div>
 {f'<img class="cover" src="{esc(cover_page)}" alt="Copertina della puntata {esc(n)}" loading="lazy">' if cover_page else ''}
